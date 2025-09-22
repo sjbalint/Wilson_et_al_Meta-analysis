@@ -1,0 +1,1032 @@
+"","unique_id","yi","vi","ch4_n","p_num","plant_species","salinity","marsh","season","tide","lat","ch4_method_simple","climate_region","month","sampling_year"
+"1",1,1.90229055679119,9,9,"1","Spartina alterniflora","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","June, July, August, September, October",2013
+"2",2,2.15316998963603,4,4,"1","Spartina alterniflora","euhaline","Eel Pond","summer","microtidal","41.556814","in situ","continental","June, July, August, September, October",2013
+"3",3,2.45767537011528,3,3,"1","Spartina alterniflora","polyhaline","Great Pond","summer","microtidal","41.559133","in situ","continental","June, July, August, September, October",2013
+"4",4,2.78437940130548,4,4,"1","Spartina alterniflora","polyhaline","Hamblin Pond","summer","microtidal","41.576159","in situ","continental","June, July, August, September, October",2013
+"5",5,0,3,3,"10","Spartina alterniflora","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.030086","discrete","subtropical/warm temperate","April",2015
+"6",6,0.588722754054437,3,3,"10","Spartina alterniflora","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.030086","discrete","subtropical/warm temperate","April",2015
+"7",7,3.05589206748961,3,3,"10","Spartina alterniflora","oligohaline","Shanyutan brackish tidal marsh","winter","macrotidal","26.030086","discrete","subtropical/warm temperate","January",2015
+"8",8,1.0454985730609,3,3,"10","Spartina alterniflora","oligohaline","Shanyutan brackish tidal marsh","winter","macrotidal","26.030086","discrete","subtropical/warm temperate","January",2015
+"9",9,1.0454985730609,3,3,"10","Spartina alterniflora","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.030086","discrete","subtropical/warm temperate","September",2015
+"10",10,5.12576971499898,3,3,"10","Spartina alterniflora","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.030086","discrete","subtropical/warm temperate","September",2015
+"11",11,6.23173067100217,3,3,"101","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","August",2015
+"12",12,7.43496439513521,3,3,"101","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","June",2015
+"13",13,7.52295634851127,3,3,"101","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","October",2015
+"14",14,4.94789783320511,3,3,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","April",2019
+"15",15,5.05910857462478,6,6,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","August",2019
+"16",16,4.7313364804137,6,6,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","December",2019
+"17",17,5.62820613858583,6,6,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","July",2019
+"18",18,6.69743351865718,3,3,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","June",2019
+"19",19,5.81145556945125,3,3,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","March",2019
+"20",20,4.62697719854052,6,6,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","November",2019
+"21",21,4.5324567603096,6,6,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","October",2019
+"22",22,4.56731736936504,6,6,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","September",2019
+"23",23,6.11761835587761,3,3,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","August",2020
+"24",24,3.65511573357565,3,3,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","December",2020
+"25",25,3.35716794916868,3,3,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","January",2020
+"26",26,5.76564689659958,3,3,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","July",2020
+"27",27,4.44010645278557,3,3,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","June",2020
+"28",28,4.17194123914911,3,3,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","November",2020
+"29",29,3.84022972810874,6,6,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","October",2020
+"30",30,4.59823257489546,6,6,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","September",2020
+"31",31,4.59001056489859,3,3,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","April",2021
+"32",32,5.94405160752084,3,3,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","August",2021
+"33",33,3.58851966991101,3,3,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","December",2021
+"34",34,3.7473762968828,3,3,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","January",2021
+"35",35,5.53368122251786,3,3,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","July",2021
+"36",36,4.84549429255458,3,3,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","June",2021
+"37",37,4.57727419464889,3,3,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","March",2021
+"38",38,4.60258679056738,3,3,"102","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","May",2021
+"39",39,4.33150637992856,3,3,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","November",2021
+"40",40,5.00799605626888,3,3,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","October",2021
+"41",41,5.60954477690393,3,3,"102","Cyperus malaccensis","mesohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","September",2021
+"42",42,4.52464220366516,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","April",2007
+"43",43,4.61500684815939,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","August",2007
+"44",44,3.11281140553122,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","December",2007
+"45",45,3.11281140553122,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","February",2007
+"46",46,3.11281140553122,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","January",2007
+"47",47,4.97409764168713,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","July",2007
+"48",48,5.14047484388289,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","June",2007
+"49",49,3.11281140553122,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","March",2007
+"50",50,5.06468661559736,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","May",2007
+"51",51,3.55348383180558,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","November",2007
+"52",52,4.24601644622301,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","October",2007
+"53",53,5.30808048889815,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","September",2007
+"54",54,3.95849383150047,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","April",2008
+"55",55,6.68349065625479,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","August",2008
+"56",56,4.84549429255458,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","December",2008
+"57",57,3.26643796099033,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","February",2008
+"58",58,3.11281140553122,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","January",2008
+"59",59,7.18648439259412,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","July",2008
+"60",60,6.03459589812411,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","June",2008
+"61",61,3.11281140553122,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","March",2008
+"62",62,4.36375642719923,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","May",2008
+"63",63,5.00799605626888,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","November",2008
+"64",64,3.68682332813572,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","October",2008
+"65",65,5.55801258162827,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","September",2008
+"66",66,3.44036338292407,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","April",2009
+"67",67,3.88444404307584,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","August",2009
+"68",68,3.55348383180558,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","December",2009
+"69",69,3.44036338292407,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","February",2009
+"70",70,3.44036338292407,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","January",2009
+"71",71,5.74193084564276,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","July",2009
+"72",72,4.19098052098846,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","June",2009
+"73",73,3.55348383180558,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","March",2009
+"74",74,4.84549429255458,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","May",2009
+"75",75,5.59111158050313,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","November",2009
+"76",76,5.08803215475449,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","October",2009
+"77",77,5.23776769058925,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","September",2009
+"78",78,6.60396810476729,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","April",2013
+"79",79,6.42097145294212,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","August",2013
+"80",80,7.11005160908178,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","December",2013
+"81",81,4.91186166516091,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","February",2013
+"82",82,7.04808962191146,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","January",2013
+"83",83,6.80248600695008,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","July",2013
+"84",84,6.66618107338243,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","June",2013
+"85",85,6.12309777047147,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","March",2013
+"86",86,7.17605282565149,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","May",2013
+"87",87,5.82258721615554,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","November",2013
+"88",88,5.63657274480499,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","October",2013
+"89",89,5.87295673475584,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","September",2013
+"90",90,3.88444404307584,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","April",2014
+"91",91,7.55217487772209,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","August",2014
+"92",92,3.26643796099033,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","December",2014
+"93",93,3.11281140553122,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","February",2014
+"94",94,3.11281140553122,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","January",2014
+"95",95,6.19681468622767,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","July",2014
+"96",96,6.24148677438744,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","June",2014
+"97",97,3.11281140553122,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","March",2014
+"98",98,5.60496823175786,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","May",2014
+"99",99,4.52464220366516,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","November",2014
+"100",100,6.76293292882315,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","October",2014
+"101",101,7.00830543368883,12,12,"105","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","September",2014
+"102",102,-0.0709993348069252,16,16,"106","Distichlis Spicata","euhaline","Point Reyes National Seashore ","annual","microtidal","38.08","discrete","mediterranean","December, April, May, June",2012
+"103",103,0.101428001403956,16,16,"106","Distichlis Spicata","euhaline","Point Reyes National Seashore ","annual","microtidal","38.08","discrete","mediterranean","December, April, May, June",2012
+"104",104,0.63675975091569,12,12,"106","Spartina alterniflora","euhaline","Point Reyes National Seashore ","annual","microtidal","38.08","discrete","mediterranean","December, April, May, June",2012
+"105",105,3.11281140553122,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","April",2011
+"106",106,0,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","April",2011
+"107",107,2.02963160879278,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","April",2011
+"108",108,6.60902285587763,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","August",2011
+"109",109,7.16935744837295,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","August",2011
+"110",110,3.11281140553122,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","August",2011
+"111",111,6.23905665722561,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","December",2011
+"112",112,4.56437357033649,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","December",2011
+"113",113,2.70980504576868,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","December",2011
+"114",114,8.14199534978854,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","July",2011
+"115",115,6.93826526942959,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","July",2011
+"116",116,3.62237118750028,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","July",2011
+"117",117,5.52874310218627,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","June",2011
+"118",118,3.39962867403759,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","June",2011
+"119",119,-3.11281140553122,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","June",2011
+"120",120,3.62237118750028,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","May",2011
+"121",121,-2.02963160879278,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","May",2011
+"122",122,2.70980504576868,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","May",2011
+"123",123,5.0488145480416,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","November",2011
+"124",124,4.89334466949434,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","November",2011
+"125",125,3.11281140553122,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","November",2011
+"126",126,5.46750152846061,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","Ocotober",2011
+"127",127,5.46750152846061,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","Ocotober",2011
+"128",128,2.02963160879278,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","Ocotober",2011
+"129",129,6.30723768329854,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","September",2011
+"130",130,7.13419761959533,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","September",2011
+"131",131,3.11281140553122,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","September",2011
+"132",132,5.81145556945125,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","February",2012
+"133",133,0,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","February",2012
+"134",134,3.11281140553122,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","February",2012
+"135",135,6.84850213524359,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","March",2012
+"136",136,2.02963160879278,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","March",2012
+"137",137,2.70980504576868,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","March",2012
+"138",138,3.47950666823078,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","April",2011
+"139",139,3.05589206748961,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","April",2011
+"140",140,-2.42553491805623,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","April",2011
+"141",141,6.70966604931072,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","August",2011
+"142",142,7.77793270989794,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","August",2011
+"143",143,3.05589206748961,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","August",2011
+"144",144,5.89379049946617,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","December",2011
+"145",145,4.56437357033649,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","December",2011
+"146",146,-3.47950666823078,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","December",2011
+"147",147,8.10277464343146,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","July",2011
+"148",148,6.31628745848186,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","July",2011
+"149",149,3.7473762968828,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","July",2011
+"150",150,5.86237479714133,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","June",2011
+"151",151,-2.42553491805623,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","June",2011
+"152",152,-3.47950666823078,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","June",2011
+"153",153,3.05589206748961,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","May",2011
+"154",154,0,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","May",2011
+"155",155,0,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","May",2011
+"156",156,4.56437357033649,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","November",2011
+"157",157,4.93004205634872,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","November",2011
+"158",158,-3.47950666823078,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","November",2011
+"159",159,5.40786551818391,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","Ocotober",2011
+"160",160,5.62315007318508,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","Ocotober",2011
+"161",161,-2.42553491805623,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","Ocotober",2011
+"162",162,6.44303843333727,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","September",2011
+"163",163,6.58521229638192,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","September",2011
+"164",164,0,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","September",2011
+"165",165,5.62315007318508,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","February",2012
+"166",166,-3.05589206748961,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","February",2012
+"167",167,-3.47950666823078,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","February",2012
+"168",168,6.0286079234292,3,3,"107","Phragmites australis","oligohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","March",2012
+"169",169,3.05589206748961,3,3,"107","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","March",2012
+"170",170,-2.42553491805623,3,3,"107","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","March",2012
+"171",171,2.02963160879278,5,5,"108","Phragmites australis","oligohaline","Yancheng National Natural Reserve ","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","April",2012
+"172",172,2.30980660008448,5,5,"108","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve ","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","April",2012
+"173",173,1.6447395780742,5,5,"108","Suaeda salsa","mesohaline","Yancheng National Natural Reserve ","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","April",2012
+"174",174,3.55348383180558,8,8,"108","Phragmites australis","oligohaline","Yancheng National Natural Reserve ","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","August",2012
+"175",175,3.98200754812003,8,8,"108","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve ","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","August",2012
+"176",176,2.42553491805623,8,8,"108","Suaeda salsa","mesohaline","Yancheng National Natural Reserve ","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","August",2012
+"177",177,2.62363073595985,4,4,"108","Phragmites australis","oligohaline","Yancheng National Natural Reserve ","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","December",2012
+"178",178,2.30980660008448,4,4,"108","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve ","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","December",2012
+"179",179,2.02963160879278,4,4,"108","Suaeda salsa","mesohaline","Yancheng National Natural Reserve ","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","December",2012
+"180",180,1.38392671373339,5,5,"108","Phragmites australis","oligohaline","Yancheng National Natural Reserve ","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","Febuary",2012
+"181",181,1.85469493709102,5,5,"108","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve ","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","Febuary",2012
+"182",182,1.0454985730609,5,5,"108","Suaeda salsa","mesohaline","Yancheng National Natural Reserve ","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","Febuary",2012
+"183",183,1.38392671373339,2,2,"108","Phragmites australis","oligohaline","Yancheng National Natural Reserve ","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","January",2012
+"184",184,1.85469493709102,2,2,"108","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve ","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","January",2012
+"185",185,1.0454985730609,2,2,"108","Suaeda salsa","mesohaline","Yancheng National Natural Reserve ","winter","mesotidal","33.600157","discrete","subtropical/warm temperate","January",2012
+"186",186,3.26643796099033,7,7,"108","Phragmites australis","oligohaline","Yancheng National Natural Reserve ","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","July",2012
+"187",187,3.68682332813572,7,7,"108","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve ","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","July",2012
+"188",188,2.62363073595985,7,7,"108","Suaeda salsa","mesohaline","Yancheng National Natural Reserve ","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","July",2012
+"189",189,2.70980504576868,7,7,"108","Phragmites australis","oligohaline","Yancheng National Natural Reserve ","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","June",2012
+"190",190,3.21779665038004,7,7,"108","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve ","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","June",2012
+"191",191,2.17925003654284,7,7,"108","Suaeda salsa","mesohaline","Yancheng National Natural Reserve ","summer","mesotidal","33.600157","discrete","subtropical/warm temperate","June",2012
+"192",192,1.85469493709102,4,4,"108","Phragmites australis","oligohaline","Yancheng National Natural Reserve ","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","March",2012
+"193",193,2.42553491805623,4,4,"108","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve ","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","March",2012
+"194",194,1.6447395780742,4,4,"108","Suaeda salsa","mesohaline","Yancheng National Natural Reserve ","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","March",2012
+"195",195,2.42553491805623,8,8,"108","Phragmites australis","oligohaline","Yancheng National Natural Reserve ","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","May",2012
+"196",196,2.7891947442165,8,8,"108","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve ","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","May",2012
+"197",197,1.6447395780742,8,8,"108","Suaeda salsa","mesohaline","Yancheng National Natural Reserve ","spring","mesotidal","33.600157","discrete","subtropical/warm temperate","May",2012
+"198",198,2.70980504576868,4,4,"108","Phragmites australis","oligohaline","Yancheng National Natural Reserve ","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","November",2012
+"199",199,2.7891947442165,4,4,"108","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve ","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","November",2012
+"200",200,2.02963160879278,4,4,"108","Suaeda salsa","mesohaline","Yancheng National Natural Reserve ","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","November",2012
+"201",201,2.93135739802743,8,8,"108","Phragmites australis","oligohaline","Yancheng National Natural Reserve ","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","October",2012
+"202",202,3.51717799638831,8,8,"108","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve ","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","October",2012
+"203",203,1.85469493709102,8,8,"108","Suaeda salsa","mesohaline","Yancheng National Natural Reserve ","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","October",2012
+"204",204,3.39962867403759,6,6,"108","Phragmites australis","oligohaline","Yancheng National Natural Reserve ","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","September",2012
+"205",205,4.19098052098846,6,6,"108","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve ","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","September",2012
+"206",206,2.30980660008448,6,6,"108","Suaeda salsa","mesohaline","Yancheng National Natural Reserve ","fall","mesotidal","33.600157","discrete","subtropical/warm temperate","September",2012
+"207",207,1.97727308907934,12,12,"109","Phragmites australis","oligohaline","Yellow River Delta Coastal Wetland Ecology Research Station","summer","microtidal","37.813746","discrete","continental","August",2015
+"208",208,-0.83215323635389,12,12,"109","Phragmites australis","oligohaline","Yellow River Delta Coastal Wetland Ecology Research Station","summer","microtidal","37.813746","discrete","continental","July",2015
+"209",209,2.42553491805623,6,6,"109","Phragmites australis","oligohaline","Yellow River Delta Coastal Wetland Ecology Research Station","summer","microtidal","37.813746","discrete","continental","June",2015
+"210",210,-0.0519415122039855,12,12,"109","Phragmites australis","oligohaline","Yellow River Delta Coastal Wetland Ecology Research Station","fall","microtidal","37.813746","discrete","continental","Ocotober",2015
+"211",211,-2.74320725373964,12,12,"109","Phragmites australis","oligohaline","Yellow River Delta Coastal Wetland Ecology Research Station","fall","microtidal","37.813746","discrete","continental","September",2015
+"212",212,1.52203544036697,16,16,"11","Spartina patens","polyhaline","Dipper Harbour","summer","macrotidal","45.1","discrete","continental","August",2006
+"213",213,1.00589427327215,16,16,"11","Spartina patens","polyhaline","Kouchibouguac ","summer","microtidal","46.133333","discrete","continental","August",2006
+"214",214,4.15253256365513,2,2,"110","Phragmites australis","mesohaline","Chongming Dongtan Wetland","spring","mesotidal","31.501302","discrete","subtropical/warm temperate","April",2012
+"215",215,4.81564512417347,2,2,"110","Spartina alterniflora","mesohaline","Chongming Dongtan Wetland","spring","mesotidal","31.501302","discrete","subtropical/warm temperate","April",2012
+"216",216,5.31423404668779,2,2,"110","Phragmites australis","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.501302","discrete","subtropical/warm temperate","August",2012
+"217",217,6.90632158316599,2,2,"110","Spartina alterniflora","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.501302","discrete","subtropical/warm temperate","August",2012
+"218",218,4.48333399700104,9,9,"113","Phragmites australis","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.494357","in situ","subtropical/warm temperate","July",2022
+"219",219,3.68573548500486,9,9,"113","Phragmites australis","oligohaline","Chongming Dongtan Wetland","fall","mesotidal","31.494357","in situ","subtropical/warm temperate","November",2022
+"220",220,5.67579249773041,3,3,"115","Phragmites australis","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","in situ","subtropical/warm temperate","August",2018
+"221",221,8.248262549689,3,3,"115","Phragmites australis","oligohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","in situ","subtropical/warm temperate","August",2018
+"222",222,7.06314364862609,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","in situ","subtropical/warm temperate","August",2018
+"223",223,5.10329848686884,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","in situ","subtropical/warm temperate","August",2018
+"224",224,3.55348383180558,3,3,"115","Phragmites australis","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","in situ","subtropical/warm temperate","July",2018
+"225",225,8.71806220111164,3,3,"115","Phragmites australis","oligohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","in situ","subtropical/warm temperate","July",2018
+"226",226,6.77011169150951,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","in situ","subtropical/warm temperate","July",2018
+"227",227,5.16925188871078,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","in situ","subtropical/warm temperate","July",2018
+"228",228,3.77633254188915,3,3,"115","Phragmites australis","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","May",2018
+"229",229,8.12516363431261,3,3,"115","Phragmites australis","oligohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","May",2018
+"230",230,4.83564322350068,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","May",2018
+"231",231,3.7473762968828,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","May",2018
+"232",232,3.88444404307584,3,3,"115","Phragmites australis","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","November",2018
+"233",233,8.47342687140139,3,3,"115","Phragmites australis","oligohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","November",2018
+"234",234,4.96544041129785,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","November",2018
+"235",235,2.62363073595985,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","November",2018
+"236",236,2.62363073595985,3,3,"115","Phragmites australis","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","April",2019
+"237",237,6.049410816519,3,3,"115","Phragmites australis","oligohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","April",2019
+"238",238,2.86278377151944,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","April",2019
+"239",239,1.38392671373339,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","April",2019
+"240",240,4.74232422952449,3,3,"115","Phragmites australis","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","in situ","subtropical/warm temperate","July",2019
+"241",241,5.51378070373327,3,3,"115","Phragmites australis","oligohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","in situ","subtropical/warm temperate","July",2019
+"242",242,6.82440463795799,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","in situ","subtropical/warm temperate","July",2019
+"243",243,2.5294179424642,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.600157","in situ","subtropical/warm temperate","July",2019
+"244",244,2.86278377151944,3,3,"115","Phragmites australis","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","May",2019
+"245",245,7.29711390699252,3,3,"115","Phragmites australis","oligohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","May",2019
+"246",246,4.59001056489859,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","May",2019
+"247",247,1.0454985730609,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","May",2019
+"248",248,5.52874310218627,3,3,"115","Phragmites australis","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","November",2019
+"249",249,8.46479372518494,3,3,"115","Phragmites australis","oligohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","November",2019
+"250",250,4.72034873130291,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","November",2019
+"251",251,2.02963160879278,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","November",2019
+"252",252,6.74402332689166,3,3,"115","Phragmites australis","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","September",2019
+"253",253,5.87994966246227,3,3,"115","Phragmites australis","oligohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","September",2019
+"254",254,7.69182292981089,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","September",2019
+"255",255,4.26370889701379,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","September",2019
+"256",256,5.67579249773041,3,3,"115","Phragmites australis","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","May",2020
+"257",257,8.42157132569799,3,3,"115","Phragmites australis","oligohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","May",2020
+"258",258,3.77633254188915,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","May",2020
+"259",259,-1.6447395780742,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.600157","in situ","subtropical/warm temperate","May",2020
+"260",260,6.645330347977,3,3,"115","Phragmites australis","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","September",2020
+"261",261,7.98475575529462,3,3,"115","Phragmites australis","oligohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","September",2020
+"262",262,5.54835096553474,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","September",2020
+"263",263,4.89334466949434,3,3,"115","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.600157","in situ","subtropical/warm temperate","September",2020
+"264",264,3.62237118750028,6,6,"118","Phragmites australis","mesohaline","La Pocatière","summer","macrotidal","47.373528","discrete","continental","August",2020
+"265",265,7.69919466377594,6,6,"118","Spartina alterniflora","polyhaline","La Pocatière","summer","macrotidal","47.373528","discrete","continental","August",2020
+"266",266,2.5294179424642,6,6,"118","Spartina patens","mesohaline","La Pocatière","summer","macrotidal","47.373528","discrete","continental","August",2020
+"267",267,-0.516699823789038,4,4,"12","Spartina patens","polyhaline","Dipper Harbour","summer","macrotidal","45.1","discrete","continental","August",2011
+"268",268,1.7863401998169,4,4,"12","Spartina patens","polyhaline","Dipper Harbour","summer","macrotidal","45.1","discrete","continental","July",2011
+"269",269,0.808866935652782,4,4,"12","Spartina patens","polyhaline","Dipper Harbour","fall","macrotidal","45.1","discrete","continental","November",2011
+"270",270,0.542930505457726,4,4,"12","Spartina patens","polyhaline","Dipper Harbour","fall","macrotidal","45.1","discrete","continental","October",2011
+"271",271,1.41188498735611,4,4,"12","Spartina patens","polyhaline","Dipper Harbour","fall","macrotidal","45.1","discrete","continental","September",2011
+"272",272,1.44809868768721,4,4,"12","Spartina patens","polyhaline","Dipper Harbour","summer","macrotidal","45.1","discrete","continental","June, July",2012
+"273",273,1.01597313417969,4,4,"12","Spartina patens","polyhaline","Dipper Harbour","spring","macrotidal","45.1","discrete","continental","March",2012
+"274",274,0.0199986669066095,4,4,"12","Spartina patens","mesohaline","Kouchibouguac","summer","microtidal","46.133333","discrete","continental","August",2011
+"275",275,0.732668256045411,4,4,"12","Spartina patens","mesohaline","Kouchibouguac","summer","microtidal","46.133333","discrete","continental","July",2011
+"276",276,0.149443120184958,4,4,"12","Spartina patens","mesohaline","Kouchibouguac","fall","microtidal","46.133333","discrete","continental","November",2011
+"277",277,0.716974594095005,4,4,"12","Spartina patens","polyhaline","Kouchibouguac","fall","microtidal","46.133333","discrete","continental","October",2011
+"278",278,-0.0699429590194018,4,4,"12","Spartina patens","mesohaline","Kouchibouguac","fall","microtidal","46.133333","discrete","continental","September",2011
+"279",279,0.801415491253481,4,4,"12","Spartina patens","polyhaline","Kouchibouguac","spring","microtidal","46.133333","discrete","continental","April",2012
+"280",280,0.31477598001879,4,4,"12","Spartina patens","polyhaline","Kouchibouguac","summer","microtidal","46.133333","discrete","continental","June",2012
+"281",281,-0.902428495530462,4,4,"12","Spartina patens","mesohaline","Kouchibouguac","spring","microtidal","46.133333","discrete","continental","May",2012
+"282",282,1.95307794645912,3,3,"15","Spartina alterniflora","euhaline","Freeman Creek Edge","fall","microtidal","34.596012","in situ","subtropical/warm temperate","fall",2015
+"283",283,0.544129930375699,3,3,"15","Spartina alterniflora","euhaline","Freeman Creek Edge","winter","microtidal","34.596012","in situ","subtropical/warm temperate","winter",2015
+"284",284,1.10889203794775,3,3,"15","Spartina alterniflora","euhaline","Freeman Creek Edge","spring","microtidal","34.596012","in situ","subtropical/warm temperate","spring",2016
+"285",285,1.84673019936517,3,3,"15","Spartina alterniflora","euhaline","Freeman Creek Edge","summer","microtidal","34.596012","in situ","subtropical/warm temperate","summer",2016
+"286",286,1.92378076504322,3,3,"15","Spartina alterniflora","euhaline","Freeman Creek Interior","fall","microtidal","34.596012","in situ","subtropical/warm temperate","fall",2015
+"287",287,-0.0519206692804477,3,3,"15","Spartina alterniflora","euhaline","Freeman Creek Interior","winter","microtidal","34.596012","in situ","subtropical/warm temperate","winter",2015
+"288",288,0.978808208811169,3,3,"15","Spartina alterniflora","euhaline","Freeman Creek Interior","spring","microtidal","34.596012","in situ","subtropical/warm temperate","spring",2016
+"289",289,2.95050816202585,3,3,"15","Spartina alterniflora","euhaline","Freeman Creek Interior","summer","microtidal","34.596012","in situ","subtropical/warm temperate","summer",2016
+"290",290,2.5294179424642,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","spring","microtidal","38.185172","discrete","subtropical/warm temperate","April",2015
+"291",291,1.38392671373339,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","spring","microtidal","38.185172","discrete","subtropical/warm temperate","April",2015
+"292",292,3.85849107692612,5,5,"17","Spartina alterniflora","mesohaline","Deal Island Peninsula","spring","microtidal","38.185172","discrete","subtropical/warm temperate","April",2015
+"293",293,2.17925003654284,5,5,"17","Spartina patens","mesohaline","Deal Island Peninsula","spring","microtidal","38.185172","discrete","subtropical/warm temperate","April",2015
+"294",294,4.36375642719923,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","summer","microtidal","38.185172","discrete","subtropical/warm temperate","August",2015
+"295",295,3.62237118750028,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","summer","microtidal","38.185172","discrete","subtropical/warm temperate","August",2015
+"296",296,5.49347611258067,5,5,"17","Spartina alterniflora","mesohaline","Deal Island Peninsula","summer","microtidal","38.185172","discrete","subtropical/warm temperate","August",2015
+"297",297,3.26643796099033,5,5,"17","Spartina patens","mesohaline","Deal Island Peninsula","summer","microtidal","38.185172","discrete","subtropical/warm temperate","August",2015
+"298",298,4.36375642719923,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","winter","microtidal","38.185172","discrete","subtropical/warm temperate","December",2015
+"299",299,2.5294179424642,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","winter","microtidal","38.185172","discrete","subtropical/warm temperate","December",2015
+"300",300,3.93441426268818,5,5,"17","Spartina alterniflora","mesohaline","Deal Island Peninsula","winter","microtidal","38.185172","discrete","subtropical/warm temperate","December",2015
+"301",301,2.30980660008448,5,5,"17","Spartina patens","mesohaline","Deal Island Peninsula","winter","microtidal","38.185172","discrete","subtropical/warm temperate","December",2015
+"302",302,4.28109385113438,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","summer","microtidal","38.185172","discrete","subtropical/warm temperate","July",2015
+"303",303,4.48326713221643,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","summer","microtidal","38.185172","discrete","subtropical/warm temperate","July",2015
+"304",304,5.72985851860111,5,5,"17","Spartina alterniflora","mesohaline","Deal Island Peninsula","summer","microtidal","38.185172","discrete","subtropical/warm temperate","July",2015
+"305",305,3.39962867403759,5,5,"17","Spartina patens","mesohaline","Deal Island Peninsula","summer","microtidal","38.185172","discrete","subtropical/warm temperate","July",2015
+"306",306,3.39962867403759,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","summer","microtidal","38.185172","discrete","subtropical/warm temperate","June",2015
+"307",307,2.02963160879278,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","summer","microtidal","38.185172","discrete","subtropical/warm temperate","June",2015
+"308",308,4.65136760651366,5,5,"17","Spartina alterniflora","mesohaline","Deal Island Peninsula","summer","microtidal","38.185172","discrete","subtropical/warm temperate","June",2015
+"309",309,3.05589206748961,5,5,"17","Spartina patens","mesohaline","Deal Island Peninsula","summer","microtidal","38.185172","discrete","subtropical/warm temperate","June",2015
+"310",310,2.86278377151944,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","spring","microtidal","38.185172","discrete","subtropical/warm temperate","May",2015
+"311",311,1.6447395780742,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","spring","microtidal","38.185172","discrete","subtropical/warm temperate","May",2015
+"312",312,4.59001056489859,5,5,"17","Spartina alterniflora","mesohaline","Deal Island Peninsula","spring","microtidal","38.185172","discrete","subtropical/warm temperate","May",2015
+"313",313,2.42553491805623,5,5,"17","Spartina patens","mesohaline","Deal Island Peninsula","spring","microtidal","38.185172","discrete","subtropical/warm temperate","May",2015
+"314",314,3.21779665038004,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","fall","microtidal","38.185172","discrete","subtropical/warm temperate","Novemeber",2015
+"315",315,4.24601644622301,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","fall","microtidal","38.185172","discrete","subtropical/warm temperate","Novemeber",2015
+"316",316,2.93135739802743,5,5,"17","Spartina alterniflora","mesohaline","Deal Island Peninsula","fall","microtidal","38.185172","discrete","subtropical/warm temperate","Novemeber",2015
+"317",317,2.17925003654284,5,5,"17","Spartina patens","mesohaline","Deal Island Peninsula","fall","microtidal","38.185172","discrete","subtropical/warm temperate","Novemeber",2015
+"318",318,3.85849107692612,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","fall","microtidal","38.185172","discrete","subtropical/warm temperate","October",2015
+"319",319,4.53806211689914,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","fall","microtidal","38.185172","discrete","subtropical/warm temperate","October",2015
+"320",320,5.06468661559736,5,5,"17","Spartina alterniflora","mesohaline","Deal Island Peninsula","fall","microtidal","38.185172","discrete","subtropical/warm temperate","October",2015
+"321",321,2.86278377151944,5,5,"17","Spartina patens","mesohaline","Deal Island Peninsula","fall","microtidal","38.185172","discrete","subtropical/warm temperate","October",2015
+"322",322,4.63939362155795,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","fall","microtidal","38.185172","discrete","subtropical/warm temperate","September",2015
+"323",323,3.44036338292407,5,5,"17","Juncus sp.","mesohaline","Deal Island Peninsula","fall","microtidal","38.185172","discrete","subtropical/warm temperate","September",2015
+"324",324,5.71353197013842,5,5,"17","Spartina alterniflora","mesohaline","Deal Island Peninsula","fall","microtidal","38.185172","discrete","subtropical/warm temperate","September",2015
+"325",325,2.42553491805623,5,5,"17","Spartina patens","mesohaline","Deal Island Peninsula","fall","microtidal","38.185172","discrete","subtropical/warm temperate","September",2015
+"326",326,-2.32886415743261,6,6,"18","Spartina patens","polyhaline","West End Marsh","summer","mesotidal","42.0387","discrete","continental","August",2014
+"327",327,-1.00083268643033,6,6,"18","Spartina patens","polyhaline","West End Marsh","summer","mesotidal","42.0387","discrete","continental","July",2014
+"328",328,-1.13798204629337,6,6,"18","Spartina patens","polyhaline","West End Marsh","summer","mesotidal","42.0387","discrete","continental","June",2014
+"329",329,-2.62268168406755,3,3,"18","Spartina patens","polyhaline","West End Marsh","spring","mesotidal","42.0387","discrete","continental","May",2014
+"330",330,-0.541247586997059,6,6,"18","Spartina patens","polyhaline","West End Marsh","fall","mesotidal","42.0387","discrete","continental","November",2014
+"331",331,0.597227337366397,6,6,"18","Spartina patens","polyhaline","West End Marsh","fall","mesotidal","42.0387","discrete","continental","October",2014
+"332",332,-0.555886372909923,6,6,"18","Spartina patens","polyhaline","West End Marsh","fall","mesotidal","42.0387","discrete","continental","September",2014
+"333",333,1.62089724754517,6,6,"18","Spartina patens","polyhaline","Rough Meadows Marsh","summer","mesotidal","42.7488","discrete","continental","August",2015
+"334",334,-0.0633512972099042,6,6,"18","Spartina patens","polyhaline","Rough Meadows Marsh","summer","mesotidal","42.7488","discrete","continental","July",2015
+"335",335,-1.1733798510598,6,6,"18","Spartina patens","polyhaline","Rough Meadows Marsh","summer","mesotidal","42.7488","discrete","continental","June",2015
+"336",336,1.64120377707362,6,6,"18","Spartina patens","polyhaline","Rough Meadows Marsh","spring","mesotidal","42.7488","discrete","continental","May",2015
+"337",337,2.43428509408316,3,3,"18","Spartina patens","polyhaline","Rough Meadows Marsh","fall","mesotidal","42.7488","discrete","continental","November",2015
+"338",338,0.555961079667715,6,6,"18","Spartina patens","polyhaline","Rough Meadows Marsh","fall","mesotidal","42.7488","discrete","continental","October",2015
+"339",339,0.801415491253481,3,3,"18","Spartina patens","polyhaline","Rough Meadows Marsh","fall","mesotidal","42.7488","discrete","continental","Septemeber",2015
+"340",340,0,3,3,"19","Phragmites australis","mesohaline","Rough Meadows Marsh","spring","mesotidal","42.744051","discrete","continental","April",2012
+"341",341,2.67201622142785,3,3,"19","Spartina alterniflora","mesohaline","Rough Meadows Marsh","spring","mesotidal","42.744051","discrete","continental","April",2012
+"342",342,3.4076140880933,3,3,"19","Phragmites australis","mesohaline","Rough Meadows Marsh","summer","mesotidal","42.744051","discrete","continental","August",2012
+"343",343,3.93612078367815,3,3,"19","Spartina alterniflora","polyhaline","Rough Meadows Marsh","summer","mesotidal","42.744051","discrete","continental","August",2012
+"344",344,2.08741068061291,3,3,"19","Phragmites australis","mesohaline","Rough Meadows Marsh","winter","mesotidal","42.744051","discrete","continental","January",2012
+"345",345,2.0947125472611,3,3,"19","Spartina alterniflora","mesohaline","Rough Meadows Marsh","winter","mesotidal","42.744051","discrete","continental","January",2012
+"346",346,4.19983004195643,3,3,"19","Phragmites australis","polyhaline","Rough Meadows Marsh","summer","mesotidal","42.744051","discrete","continental","July",2012
+"347",347,5.09501398607119,3,3,"19","Spartina alterniflora","mesohaline","Rough Meadows Marsh","summer","mesotidal","42.744051","discrete","continental","July",2012
+"348",348,3.59806202674311,3,3,"19","Phragmites australis","mesohaline","Rough Meadows Marsh","summer","mesotidal","42.744051","discrete","continental","June",2012
+"349",349,3.17978543769988,3,3,"19","Spartina alterniflora","mesohaline","Rough Meadows Marsh","summer","mesotidal","42.744051","discrete","continental","June",2012
+"350",350,0,3,3,"19","Phragmites australis","mesohaline","Rough Meadows Marsh","spring","mesotidal","42.744051","discrete","continental","March",2012
+"351",351,-2.42379204358752,3,3,"19","Spartina alterniflora","mesohaline","Rough Meadows Marsh","spring","mesotidal","42.744051","discrete","continental","March",2012
+"352",352,3.29646680508093,3,3,"19","Phragmites australis","mesohaline","Rough Meadows Marsh","spring","mesotidal","42.744051","discrete","continental","May",2012
+"353",353,9.39839215320147,3,3,"19","Spartina alterniflora","mesohaline","Rough Meadows Marsh","spring","mesotidal","42.744051","discrete","continental","May",2012
+"354",354,0,3,3,"19","Phragmites australis","polyhaline","Rough Meadows Marsh","fall","mesotidal","42.744051","discrete","continental","September",2012
+"355",355,2.42379204358752,3,3,"19","Spartina alterniflora","polyhaline","Rough Meadows Marsh","fall","mesotidal","42.744051","discrete","continental","September",2012
+"356",356,1.0454985730609,18,18,"2","Salicornia sp.","oligohaline","Tollesbury Marshes Natural Low","summer","macrotidal","51.66667","discrete","oceanic","July",2010
+"357",357,1.0454985730609,6,6,"21","Elytrigia repens","oligohaline","Crossens Marsh","spring","macrotidal","53.6875","discrete","oceanic","April",2009
+"358",358,1.6447395780742,6,6,"21","Elytrigia repens","oligohaline","Crossens Marsh","summer","macrotidal","53.6875","discrete","oceanic","August",2009
+"359",359,1.6447395780742,6,6,"21","Elytrigia repens","oligohaline","Crossens Marsh","winter","macrotidal","53.6875","discrete","oceanic","December",2009
+"360",360,2.7891947442165,6,6,"21","Elytrigia repens","oligohaline","Crossens Marsh","winter","macrotidal","53.6875","discrete","oceanic","February",2009
+"361",361,2.62363073595985,6,6,"21","Elytrigia repens","oligohaline","Crossens Marsh","summer","macrotidal","53.6875","discrete","oceanic","July",2009
+"362",362,2.93135739802743,6,6,"21","Elytrigia repens","oligohaline","Crossens Marsh","summer","macrotidal","53.6875","discrete","oceanic","June",2009
+"363",363,-2.62363073595985,6,6,"21","Elytrigia repens","oligohaline","Crossens Marsh","spring","macrotidal","53.6875","discrete","oceanic","March",2009
+"364",364,1.0454985730609,6,6,"21","Elytrigia repens","oligohaline","Crossens Marsh","spring","macrotidal","53.6875","discrete","oceanic","May",2009
+"365",365,3.47950666823078,6,6,"21","Elytrigia repens","oligohaline","Crossens Marsh","fall","macrotidal","53.6875","discrete","oceanic","November",2009
+"366",366,3.166676243712,6,6,"21","Elytrigia repens","oligohaline","Crossens Marsh","fall","macrotidal","53.6875","discrete","oceanic","October",2009
+"367",367,2.93135739802743,6,6,"21","Elytrigia repens","oligohaline","Crossens Marsh","fall","macrotidal","53.6875","discrete","oceanic","September",2009
+"368",368,5.63211850675449,9,9,"22","Spartina alterniflora","mesohaline","Zhangjiang River Estuary Mangrove National Natural Reserve","summer","mesotidal","23.920833","discrete","subtropical/warm temperate","May, June, July",2016
+"369",369,4.32563120438929,6,6,"24","Spartina alterniflora","polyhaline","Plum Island, West Creek","summer","mesotidal","42.798611","in situ","continental","August",2015
+"370",370,2.96996846500864,6,6,"24","Spartina alterniflora","polyhaline","Plum Island, West Creek","summer","mesotidal","42.798611","in situ","continental","July",2015
+"371",371,2.56776895483546,6,6,"24","Spartina alterniflora","polyhaline","Plum Island, West Creek","summer","mesotidal","42.798611","in situ","continental","August",2016
+"372",372,2.93243390220638,6,6,"24","Spartina alterniflora","polyhaline","Plum Island, West Creek","summer","mesotidal","42.798611","in situ","continental","July",2016
+"373",373,3.33632342593027,6,6,"24","Spartina alterniflora","polyhaline","Plum Island, West Creek","summer","mesotidal","42.798611","in situ","continental","July",2016
+"374",374,2.96996846500864,6,6,"24","Spartina alterniflora","polyhaline","Plum Island, West Creek","summer","mesotidal","42.798611","in situ","continental","June",2016
+"375",375,3.38621356806273,6,6,"24","Spartina alterniflora","polyhaline","Plum Island, West Creek","summer","mesotidal","42.798611","in situ","continental","June",2016
+"376",376,3.68682342827869,3.5,3,"25","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","spring","mesotidal","53.4397","discrete","oceanic","April",1994
+"377",377,5.84463606267448,3.5,3,"25","Spartina angelica","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","spring","mesotidal","53.4397","discrete","oceanic","April",1994
+"378",378,1.37161297070138,3.5,3,"25","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","summer","mesotidal","53.4397","discrete","oceanic","August",1994
+"379",379,4.8164865444136,3.5,3,"25","Spartina angelica","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","summer","mesotidal","53.4397","discrete","oceanic","August",1994
+"380",380,0,3.5,3,"25","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","winter","mesotidal","53.4397","discrete","oceanic","December",1994
+"381",381,0,3.5,3,"25","Spartina angelica","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","winter","mesotidal","53.4397","discrete","oceanic","December",1994
+"382",382,6.37682350873998,3.5,3,"25","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","summer","mesotidal","53.4397","discrete","oceanic","July",1994
+"383",383,5.94500442486953,3.5,3,"25","Spartina angelica","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","summer","mesotidal","53.4397","discrete","oceanic","July",1994
+"384",384,5.63193261030153,3.5,3,"25","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","summer","mesotidal","53.4397","discrete","oceanic","June",1994
+"385",385,5.41436193273143,3.5,3,"25","Spartina angelica","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","summer","mesotidal","53.4397","discrete","oceanic","June",1994
+"386",386,4.64340103349432,3.5,3,"25","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","spring","mesotidal","53.4397","discrete","oceanic","May",1994
+"387",387,5.17543811072714,3.5,3,"25","Spartina angelica","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","spring","mesotidal","53.4397","discrete","oceanic","May",1994
+"388",388,1.37161297070138,3.5,3,"25","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","fall","mesotidal","53.4397","discrete","oceanic","November",1994
+"389",389,4.40011283822083,3.5,3,"25","Spartina angelica","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","fall","mesotidal","53.4397","discrete","oceanic","November",1994
+"390",390,2.24116328161732,3.5,3,"25","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","fall","mesotidal","53.4397","discrete","oceanic","October",1994
+"391",391,5.41436193273143,3.5,3,"25","Spartina angelica","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","fall","mesotidal","53.4397","discrete","oceanic","October",1994
+"392",392,3.53700695255023,3.5,3,"25","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","fall","mesotidal","53.4397","discrete","oceanic","September",1994
+"393",393,5.37617833348676,3.5,3,"25","Spartina angelica","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","fall","mesotidal","53.4397","discrete","oceanic","September",1994
+"394",394,1.89363761831341,3.5,3,"25","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","winter","mesotidal","53.4397","discrete","oceanic","February",1995
+"395",395,2.97988398660791,3.5,3,"25","Spartina angelica","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","winter","mesotidal","53.4397","discrete","oceanic","February",1995
+"396",396,1.37161297070138,3.5,3,"25","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","winter","mesotidal","53.4397","discrete","oceanic","January",1995
+"397",397,2.64587357135217,3.5,3,"25","Spartina angelica","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","winter","mesotidal","53.4397","discrete","oceanic","January",1995
+"398",398,3.1445829139703,3.5,3,"25","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","spring","mesotidal","53.4397","discrete","oceanic","March",1995
+"399",399,3.11281158308295,3.5,3,"25","Spartina angelica","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","spring","mesotidal","53.4397","discrete","oceanic","March",1995
+"400",400,-0.00670094985139831,3.5,3,"26","Puccinellia maritima","polyhaline","Neuwarpeler Aussengroden","summer","mesotidal","53.398328","discrete","oceanic","June",1995
+"401",401,-0.00501297900398124,3.5,3,"26","Salicornia sp.","polyhaline","Neuwarpeler Aussengroden","summer","mesotidal","53.398328","discrete","oceanic","June",1995
+"402",402,0.0334457641392526,3.5,3,"26","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","spring","mesotidal","53.4397","discrete","oceanic","April",1994
+"403",403,0.00334999373413581,3.5,3,"26","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","summer","mesotidal","53.4397","discrete","oceanic","August",1994
+"404",404,0,3.5,3,"26","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","winter","mesotidal","53.4397","discrete","oceanic","December",1994
+"405",405,0.487113483101089,3.5,3,"26","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","summer","mesotidal","53.4397","discrete","oceanic","July",1994
+"406",406,0.240132518361202,3.5,3,"26","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","summer","mesotidal","53.4397","discrete","oceanic","June",1994
+"407",407,0.0934927388027121,3.5,3,"26","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","spring","mesotidal","53.4397","discrete","oceanic","May",1994
+"408",408,0.00501297900398124,3.5,3,"26","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","fall","mesotidal","53.4397","discrete","oceanic","Novemebr",1994
+"409",409,0.0117127321902595,3.5,3,"26","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","fall","mesotidal","53.4397","discrete","oceanic","October",1994
+"410",410,0.0417768467167919,3.5,3,"26","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","fall","mesotidal","53.4397","discrete","oceanic","Septemebr",1994
+"411",411,0.00501297900398124,3.5,3,"26","Puccinellia maritima","polyhaline","Sehestedter Außendeichsmoor at the German North Sea coast","winter","mesotidal","53.4397","discrete","oceanic","January",1995
+"412",412,5.49674748290842,10,10,"27","Spartina alterniflora","mesohaline","St Jones Reserve","summer","microtidal","39.089962","in situ","subtropical/warm temperate","August",2020
+"413",413,2.01453689436098,10,10,"27","Spartina alterniflora","mesohaline","St Jones Reserve","winter","microtidal","39.089962","in situ","subtropical/warm temperate","December",2020
+"414",414,5.14481954896166,10,10,"27","Spartina alterniflora","mesohaline","St Jones Reserve","summer","microtidal","39.089962","in situ","subtropical/warm temperate","July",2020
+"415",415,4.12610394562816,5,5,"27","Spartina alterniflora","mesohaline","St Jones Reserve","summer","microtidal","39.089962","in situ","subtropical/warm temperate","June",2020
+"416",416,3.45904381179292,15,15,"27","Spartina alterniflora","mesohaline","St Jones Reserve","spring","microtidal","39.089962","in situ","subtropical/warm temperate","May",2020
+"417",417,2.28335716932241,10,10,"27","Spartina alterniflora","mesohaline","St Jones Reserve","fall","microtidal","39.089962","in situ","subtropical/warm temperate","November",2020
+"418",418,3.81031026962191,10,10,"27","Spartina alterniflora","mesohaline","St Jones Reserve","fall","microtidal","39.089962","in situ","subtropical/warm temperate","October",2020
+"419",419,5.56173674208997,10,10,"27","Spartina alterniflora","mesohaline","St Jones Reserve","fall","microtidal","39.089962","in situ","subtropical/warm temperate","September",2020
+"420",420,8.19732500812024,30,30,"28","Carex sp.","oligohaline","Coastal Lagoon","summer","microtidal","35.476277","discrete","subtropical/warm temperate","August",2003
+"421",421,9.63485398548896,30,30,"28","Carex sp.","oligohaline","Coastal Lagoon","summer","microtidal","35.476277","discrete","subtropical/warm temperate","August",2003
+"422",422,5.3197378880371,30,30,"29","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.03358","discrete","subtropical/warm temperate","October",2011
+"423",423,5.6642217255622,3,3,"29","Cyperus malaccensis","mesohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.03358","discrete","subtropical/warm temperate","September",2011
+"424",424,5.4220253119256,72,72,"29","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.03358","discrete","subtropical/warm temperate","September",2011
+"425",425,4.88367403204601,99,99,"29","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.03358","discrete","subtropical/warm temperate","March",2012
+"426",426,3.51717799638831,4,4,"30","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","winter","macrotidal","26.03358","discrete","subtropical/warm temperate","December",2013
+"427",427,4.62727456791244,4,4,"30","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.03358","discrete","subtropical/warm temperate","November",2013
+"428",428,3.51717799638831,4,4,"30","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.03358","discrete","subtropical/warm temperate","April",2014
+"429",429,7.60133891817107,4,4,"30","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","summer","macrotidal","26.03358","discrete","subtropical/warm temperate","August",2014
+"430",430,2.86278377151944,4,4,"30","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","winter","macrotidal","26.03358","discrete","subtropical/warm temperate","February",2014
+"431",431,2.86278377151944,4,4,"30","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","winter","macrotidal","26.03358","discrete","subtropical/warm temperate","January",2014
+"432",432,6.19934952168498,4,4,"30","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","summer","macrotidal","26.03358","discrete","subtropical/warm temperate","July",2014
+"433",433,6.32748571151133,4,4,"30","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","summer","macrotidal","26.03358","discrete","subtropical/warm temperate","June",2014
+"434",434,2.86278377151944,4,4,"30","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.03358","discrete","subtropical/warm temperate","March",2014
+"435",435,5.72172856280846,4,4,"30","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.03358","discrete","subtropical/warm temperate","May",2014
+"436",436,6.90881534385527,4,4,"30","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.03358","discrete","subtropical/warm temperate","October",2014
+"437",437,7.09362415690501,4,4,"30","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.03358","discrete","subtropical/warm temperate","September",2014
+"438",438,4.15253256365513,3,3,"31","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","winter","macrotidal","26.03358","discrete","subtropical/warm temperate","December",2014
+"439",439,3.77633254188915,3,3,"31","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.03358","discrete","subtropical/warm temperate","November",2014
+"440",440,3.166676243712,3,3,"31","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.03358","discrete","subtropical/warm temperate","October",2014
+"441",441,3.83184724248048,3,3,"31","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.03358","discrete","subtropical/warm temperate","September",2014
+"442",442,2.93135739802743,3,3,"31","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.03358","discrete","subtropical/warm temperate","April",2015
+"443",443,4.81564512417347,3,3,"31","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","summer","macrotidal","26.03358","discrete","subtropical/warm temperate","August",2015
+"444",444,2.9955524070856,3,3,"31","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","winter","macrotidal","26.03358","discrete","subtropical/warm temperate","February",2015
+"445",445,2.86278377151944,3,3,"31","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","winter","macrotidal","26.03358","discrete","subtropical/warm temperate","January",2015
+"446",446,4.80549409578532,3,3,"31","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","summer","macrotidal","26.03358","discrete","subtropical/warm temperate","July",2015
+"447",447,4.51103978729892,3,3,"31","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","summer","macrotidal","26.03358","discrete","subtropical/warm temperate","June",2015
+"448",448,2.17925003654284,3,3,"31","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.03358","discrete","subtropical/warm temperate","March",2015
+"449",449,1.6447395780742,3,3,"31","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.03358","discrete","subtropical/warm temperate","May",2015
+"450",450,3.68682332813572,6,6,"33","Phragmites australis","mesohaline","Suncheon Bay Reed Field","summer","mesotidal","34.882644","discrete","subtropical/warm temperate","August",2016
+"451",451,3.68682332813572,6,6,"33","Phragmites australis","mesohaline","Suncheon Bay Reed Field","summer","mesotidal","34.882644","discrete","subtropical/warm temperate","August",2016
+"452",452,1.0454985730609,6,6,"33","Suaeda sp.","mesohaline","Suncheon Bay Reed Field","summer","mesotidal","34.882644","discrete","subtropical/warm temperate","August",2016
+"453",453,3.62237118750028,3,3,"34","Phragmites australis","mesohaline","Suncheon Bay Reed Field","summer","mesotidal","34.882644","discrete","subtropical/warm temperate","July",2016
+"454",454,5.75780387184325,3,3,"34","Spartina angelica","mesohaline","Ganghwa Island Marsh","summer","macrotidal","37.583333","discrete","subtropical/warm temperate","July",2019
+"455",455,7.82136225322826,6,6,"35","Spartina patens","mesohaline","Pointe-aux-Chenes Wildlife Management Area","spring","microtidal","29.501333","discrete","subtropical/warm temperate","April",2012
+"456",456,0,6,6,"35","Spartina patens","mesohaline","Pointe-aux-Chenes Wildlife Management Area","spring","microtidal","29.501333","discrete","subtropical/warm temperate","March",2012
+"457",457,8.22682727196914,6,6,"35","Spartina patens","mesohaline","Pointe-aux-Chenes Wildlife Management Area","spring","microtidal","29.501333","discrete","subtropical/warm temperate","May",2012
+"458",458,7.12821555525122,6,6,"35","Spartina patens","mesohaline","Pointe-aux-Chenes Wildlife Management Area","fall","microtidal","29.501333","discrete","subtropical/warm temperate","October",2012
+"459",459,7.12821555525122,6,6,"35","Spartina patens","mesohaline","Pointe-aux-Chenes Wildlife Management Area","fall","microtidal","29.501333","discrete","subtropical/warm temperate","September",2012
+"460",460,-0.213423089842511,4,4,"39","Phragmites australis","oligohaline","Yellow River Estuary","winter","microtidal","37.762778","discrete","continental","December",2015
+"461",461,1.54032314148715,4,4,"39","Phragmites australis","oligohaline","Yellow River Estuary","fall","microtidal","37.762778","discrete","continental","September",2015
+"462",462,4.04940498305146,9,9,"4","Phragmites australis","oligohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December, January, Febuary",2012
+"463",463,1.85469493709102,9,9,"4","Schoenoplectus triqueter","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December, January, Febuary",2012
+"464",464,2.17925003654284,9,9,"4","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December, January, Febuary",2012
+"465",465,-1.0454985730609,9,9,"4","Suaeda sp.","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December, January, Febuary",2012
+"466",466,2.5294179424642,18,18,"4","Schoenoplectus triqueter","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.614298","discrete","subtropical/warm temperate","June, July, August",2012
+"467",467,-3.166676243712,18,18,"4","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.614298","discrete","subtropical/warm temperate","June, July, August",2012
+"468",468,2.42553491805623,18,18,"4","Suaeda sp.","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.614298","discrete","subtropical/warm temperate","June, July, August",2012
+"469",469,-0.588722754054437,15,15,"4","Phragmites australis","oligohaline","Yancheng National Natural Reserve","spring","mesotidal","33.614298","discrete","subtropical/warm temperate","March, April, May",2012
+"470",470,0.588722754054437,15,15,"4","Schoenoplectus triqueter","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.614298","discrete","subtropical/warm temperate","March, April, May",2012
+"471",471,-2.70980504576868,15,15,"4","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.614298","discrete","subtropical/warm temperate","March, April, May",2012
+"472",472,0.588722754054437,15,15,"4","Suaeda sp.","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.614298","discrete","subtropical/warm temperate","March, April, May",2012
+"473",473,4.97409764168713,6,6,"4","Phragmites australis","oligohaline","Yancheng National Natural Reserve","fall","mesotidal","33.614298","discrete","subtropical/warm temperate","September, October",2012
+"474",474,5.30188882217397,6,6,"4","Schoenoplectus triqueter","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.614298","discrete","subtropical/warm temperate","September, October",2012
+"475",475,4.13273991680597,6,6,"4","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.614298","discrete","subtropical/warm temperate","September, October",2012
+"476",476,3.11281140553122,6,6,"4","Suaeda sp.","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.614298","discrete","subtropical/warm temperate","September, October",2012
+"477",477,0.588722754054437,9,9,"4","Phragmites australis","oligohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December, January, Febuary",2013
+"478",478,-0.588722754054437,9,9,"4","Schoenoplectus triqueter","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December, January, Febuary",2013
+"479",479,0,9,9,"4","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December, January, Febuary",2013
+"480",480,3.62237118750028,9,9,"4","Suaeda sp.","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December, January, Febuary",2013
+"481",481,5.36797586241137,18,18,"4","Phragmites australis","oligohaline","Yancheng National Natural Reserve","summer","mesotidal","33.614298","discrete","subtropical/warm temperate","June, July, August",2013
+"482",482,4.04940498305146,18,18,"4","Schoenoplectus triqueter","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.614298","discrete","subtropical/warm temperate","June, July, August",2013
+"483",483,3.39962867403759,18,18,"4","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.614298","discrete","subtropical/warm temperate","June, July, August",2013
+"484",484,1.38392671373339,18,18,"4","Suaeda sp.","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.614298","discrete","subtropical/warm temperate","June, July, August",2013
+"485",485,-0.588722754054437,15,15,"4","Phragmites australis","oligohaline","Yancheng National Natural Reserve","spring","mesotidal","33.614298","discrete","subtropical/warm temperate","March, April, May",2013
+"486",486,-0.588722754054437,15,15,"4","Schoenoplectus triqueter","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.614298","discrete","subtropical/warm temperate","March, April, May",2013
+"487",487,-1.38392671373339,15,15,"4","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.614298","discrete","subtropical/warm temperate","March, April, May",2013
+"488",488,-1.6447395780742,15,15,"4","Suaeda sp.","mesohaline","Yancheng National Natural Reserve","spring","mesotidal","33.614298","discrete","subtropical/warm temperate","March, April, May",2013
+"489",489,-1.38392671373339,6,6,"4","Phragmites australis","oligohaline","Yancheng National Natural Reserve","fall","mesotidal","33.614298","discrete","subtropical/warm temperate","September, October",2013
+"490",490,1.0454985730609,6,6,"4","Schoenoplectus triqueter","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.614298","discrete","subtropical/warm temperate","September, October",2013
+"491",491,2.86278377151944,6,6,"4","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.614298","discrete","subtropical/warm temperate","September, October",2013
+"492",492,2.02963160879278,6,6,"4","Suaeda sp.","mesohaline","Yancheng National Natural Reserve","fall","mesotidal","33.614298","discrete","subtropical/warm temperate","September, October",2013
+"493",493,7.82677487972035,16,16,"40","Carex sp.","mesohaline","Wetlands of Liminganlahti, Lumijoki","summer","microtidal","64.866667","discrete","polar","August",2004
+"494",494,7.23476186332695,16,16,"40","Carex sp.","mesohaline","Wetlands of Liminganlahti, Lumijoki","summer","microtidal","64.866667","discrete","polar","July",2004
+"495",495,4.73135747367302,24,24,"40","Carex sp.","mesohaline","Wetlands of Liminganlahti, Lumijoki","summer","microtidal","64.866667","discrete","polar","June",2004
+"496",496,4.37200224996757,8,8,"40","Carex sp.","mesohaline","Wetlands of Liminganlahti, Lumijoki","spring","microtidal","64.866667","discrete","polar","May",2004
+"497",497,6.82809310298031,20,20,"40","Carex sp.","mesohaline","Wetlands of Liminganlahti, Lumijoki","fall","microtidal","64.866667","discrete","polar","September",2004
+"498",498,3.70388204372569,3,3,"42","Phragmites australis","oligohaline","Dongtai, Jiangsu","spring","mesotidal","32.691389","discrete","subtropical/warm temperate","April",2020
+"499",499,4.02816570915389,3,3,"42","Spartina alterniflora","oligohaline","Dongtai, Jiangsu","spring","mesotidal","32.691389","discrete","subtropical/warm temperate","April",2020
+"500",500,4.97622947757829,3,3,"42","Phragmites australis","oligohaline","Dongtai, Jiangsu","summer","mesotidal","32.691389","discrete","subtropical/warm temperate","August",2020
+"501",501,4.56965037648479,3,3,"42","Spartina alterniflora","oligohaline","Dongtai, Jiangsu","summer","mesotidal","32.691389","discrete","subtropical/warm temperate","August",2020
+"502",502,-1.7863401998169,3,3,"42","Phragmites australis","oligohaline","Dongtai, Jiangsu","winter","mesotidal","32.691389","discrete","subtropical/warm temperate","January",2020
+"503",503,-3.12867867763828,3,3,"42","Spartina alterniflora","oligohaline","Dongtai, Jiangsu","winter","mesotidal","32.691389","discrete","subtropical/warm temperate","January",2020
+"504",504,5.65425429726599,3,3,"42","Phragmites australis","oligohaline","Dongtai, Jiangsu","summer","mesotidal","32.691389","discrete","subtropical/warm temperate","July",2020
+"505",505,5.99147079704939,3,3,"42","Spartina alterniflora","oligohaline","Dongtai, Jiangsu","summer","mesotidal","32.691389","discrete","subtropical/warm temperate","July",2020
+"506",506,4.54553285586281,3,3,"42","Phragmites australis","oligohaline","Dongtai, Jiangsu","summer","mesotidal","32.691389","discrete","subtropical/warm temperate","June",2020
+"507",507,4.60527017099142,3,3,"42","Spartina alterniflora","oligohaline","Dongtai, Jiangsu","summer","mesotidal","32.691389","discrete","subtropical/warm temperate","June",2020
+"508",508,-1.99817488370457,3,3,"42","Phragmites australis","oligohaline","Dongtai, Jiangsu","spring","mesotidal","32.691389","discrete","subtropical/warm temperate","March",2020
+"509",509,-2.86771868253768,3,3,"42","Spartina alterniflora","oligohaline","Dongtai, Jiangsu","spring","mesotidal","32.691389","discrete","subtropical/warm temperate","March",2020
+"510",510,4.08491397681826,3,3,"42","Phragmites australis","oligohaline","Dongtai, Jiangsu","spring","mesotidal","32.691389","discrete","subtropical/warm temperate","May",2020
+"511",511,4.29991554579564,3,3,"42","Spartina alterniflora","oligohaline","Dongtai, Jiangsu","spring","mesotidal","32.691389","discrete","subtropical/warm temperate","May",2020
+"512",512,4.0603954611254,3,3,"42","Phragmites australis","oligohaline","Dongtai, Jiangsu","fall","mesotidal","32.691389","discrete","subtropical/warm temperate","September",2020
+"513",513,3.89468048704041,3,3,"42","Spartina alterniflora","oligohaline","Dongtai, Jiangsu","fall","mesotidal","32.691389","discrete","subtropical/warm temperate","September",2020
+"514",514,2.17925003654284,3,3,"43","Phragmites australis","oligohaline","Nature Reserve of the Yellow River Delta","spring","microtidal","37.756483","discrete","continental","March",2011
+"515",515,0.588722754054437,3,3,"43","Suaeda salsa","oligohaline","Nature Reserve of the Yellow River Delta","spring","microtidal","37.756483","discrete","continental","March",2011
+"516",516,-2.17925003654284,3,3,"43","Tamarix chinensis","mesohaline","Nature Reserve of the Yellow River Delta","spring","microtidal","37.756483","discrete","continental","March",2011
+"517",517,0.339981448675795,9,9,"44","Salicornia sp.","euhaline","Mornington Peninsula edge of Westernport Bay","summer","mesotidal","-38.4","discrete","oceanic","Decemeber",2009
+"518",518,0.098947461769452,9,9,"44","Salicornia sp.","euhaline","Mornington Peninsula edge of Westernport Bay","winter","mesotidal","-38.4","discrete","oceanic","July",2009
+"519",519,0.245001565304038,9,9,"44","Salicornia sp.","euhaline","Mornington Peninsula edge of Westernport Bay","fall","mesotidal","-38.4","discrete","oceanic","May",2009
+"520",520,0.245001565304038,9,9,"44","Salicornia sp.","euhaline","Mornington Peninsula edge of Westernport Bay","spring","mesotidal","-38.4","discrete","oceanic","September",2009
+"521",521,5.04046257692851,144,144,"45","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.495693","discrete","subtropical/warm temperate","July",2011
+"522",522,4.9107360590255,141,141,"45","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.495693","discrete","subtropical/warm temperate","July",2011
+"523",523,2.4436044402346,18,18,"46","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","spring","mesotidal","31.495693","discrete","subtropical/warm temperate","April",2011
+"524",524,6.16457503405681,18,18,"46","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.495693","discrete","subtropical/warm temperate","August",2011
+"525",525,3.54002302089091,18,18,"46","Scirpus mariqueter","mesohaline","Chongming Dongtan Wetland","winter","mesotidal","31.495693","discrete","subtropical/warm temperate","December",2011
+"526",526,3.51254592015544,18,18,"46","Scirpus mariqueter","mesohaline","Chongming Dongtan Wetland","winter","mesotidal","31.495693","discrete","subtropical/warm temperate","February",2011
+"527",527,5.26202826406723,18,18,"46","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.495693","discrete","subtropical/warm temperate","July",2011
+"528",528,4.6748940510242,18,18,"46","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.495693","discrete","subtropical/warm temperate","June",2011
+"529",529,2.4436044402346,18,18,"46","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","spring","mesotidal","31.495693","discrete","subtropical/warm temperate","March",2011
+"530",530,3.29951855908951,18,18,"46","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","spring","mesotidal","31.495693","discrete","subtropical/warm temperate","May",2011
+"531",531,4.29251836742866,18,18,"46","Scirpus mariqueter","mesohaline","Chongming Dongtan Wetland","fall","mesotidal","31.495693","discrete","subtropical/warm temperate","November",2011
+"532",532,3.42696841331605,18,18,"46","Scirpus mariqueter","mesohaline","Chongming Dongtan Wetland","fall","mesotidal","31.495693","discrete","subtropical/warm temperate","October",2011
+"533",533,5.9299275985396,18,18,"46","Scirpus mariqueter","mesohaline","Chongming Dongtan Wetland","fall","mesotidal","31.495693","discrete","subtropical/warm temperate","September",2011
+"534",534,3.51717799638831,9,9,"47","Phragmites australis","oligohaline","Nature Reserve of the Yellow River Delta","spring","microtidal","37.768332","in situ","continental","May",2018
+"535",535,-1.0454985730609,27,27,"47","Suaeda sp.","oligohaline","Nature Reserve of the Yellow River Delta","spring","microtidal","37.768332","in situ","continental","May",2018
+"536",536,-2.70980504576868,3,3,"47","Tamarix chinensis","oligohaline","Nature Reserve of the Yellow River Delta","spring","microtidal","37.768332","in situ","continental","May",2018
+"537",537,1.22667965252467,8,8,"48","Plantago maritima","euhaline","Dipper Harbour","summer","macrotidal","45.083333","discrete","continental","July, August, September",1993
+"538",538,1.18384000739771,6,6,"48","Spartina alterniflora","euhaline","Dipper Harbour","summer","macrotidal","45.083333","discrete","continental","July, August, September",1993
+"539",539,1.06164728051055,7,7,"48","Spartina patens","euhaline","Dipper Harbour","summer","macrotidal","45.083333","discrete","continental","July, August, September",1993
+"540",540,3.37465591571559,3,3,"49","Distichlis Spicata","mesohaline","Fox Hill","spring","microtidal","41.489731","in situ","continental","April, May",2014
+"541",541,3.85017475066312,6,6,"49","Phragmites australis","mesohaline","Fox Hill","spring","microtidal","41.489731","in situ","continental","April, May",2014
+"542",542,3.37465591571559,3,3,"49","Distichlis Spicata","euhaline","Fox Hill","summer","microtidal","41.489731","in situ","continental","June, July",2014
+"543",543,5.89633691176104,6,6,"49","Phragmites australis","polyhaline","Fox Hill","summer","microtidal","41.489731","in situ","continental","June, July",2014
+"544",544,3.37465591571559,3,3,"49","Distichlis Spicata","euhaline","Fox Hill","fall","microtidal","41.489731","in situ","continental","November",2014
+"545",545,7.24625454039927,6,6,"49","Phragmites australis","polyhaline","Fox Hill","fall","microtidal","41.489731","in situ","continental","October",2014
+"546",546,6.7536026269334,3,3,"49","Phragmites australis","mesohaline","Round Marsh","summer","microtidal","41.508405","in situ","continental","August",2014
+"547",547,6.44933483538809,3,3,"49","Distichlis Spicata","mesohaline","Round Marsh","summer","microtidal","41.508405","in situ","continental","June, July",2014
+"548",548,7.36979013547875,3,3,"49","Phragmites australis","mesohaline","Round Marsh","summer","microtidal","41.508405","in situ","continental","June, July",2014
+"549",549,4.71069167565106,3,3,"49","Distichlis Spicata","mesohaline","Round Marsh","spring","microtidal","41.508405","in situ","continental","May",2014
+"550",550,8.52667216329884,3,3,"49","Phragmites australis","oligohaline","Round Marsh","spring","microtidal","41.508405","in situ","continental","May",2014
+"551",551,4.15128781418909,3,3,"49","Distichlis Spicata","mesohaline","Round Marsh","fall","microtidal","41.508405","in situ","continental","September",2014
+"552",552,3.87703214767022,6,6,"49","Phragmites australis","euhaline","Sage Lot Pond","winter","microtidal","41.554382","in situ","continental","December",2014
+"553",553,2.24557722925474,3,3,"49","Distichlis Spicata","euhaline","Sage Lot Pond","winter","microtidal","41.554382","in situ","continental","January",2014
+"554",554,2.01140366906056,3,3,"49","Distichlis Spicata","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","June, July",2014
+"555",555,3.68950386898891,6,6,"49","Phragmites australis","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","June, July",2014
+"556",556,1.28550938858874,3,3,"49","Distichlis Spicata","polyhaline","Sage Lot Pond","spring","microtidal","41.554382","in situ","continental","May",2014
+"557",557,1.46138223494202,6,6,"49","Phragmites australis","polyhaline","Sage Lot Pond","spring","microtidal","41.554382","in situ","continental","May",2014
+"558",558,2.03067748984951,9,9,"5","Juncus sp.","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","August",2014
+"559",559,0.697940270082073,2,2,"5","Juncus sp.","polyhaline","Sage Lot Pond","winter","microtidal","41.554382","in situ","continental","December",2014
+"560",560,0.697940270082073,2,2,"5","Juncus sp.","polyhaline","Sage Lot Pond","winter","microtidal","41.554382","in situ","continental","January",2014
+"561",561,2.34105800517016,9,9,"5","Juncus sp.","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","July",2014
+"562",562,0.961066972093448,6,6,"5","Juncus sp.","polyhaline","Sage Lot Pond","fall","microtidal","41.554382","in situ","continental","October",2014
+"563",563,0.887019142690267,4,4,"5","Juncus sp.","polyhaline","Sage Lot Pond","fall","microtidal","41.554382","in situ","continental","September",2014
+"564",564,2.75287977236268,5,5,"5","Juncus sp.","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","August",2015
+"565",565,2.40052454181004,14,14,"5","Spartina alterniflora","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","August",2015
+"566",566,0.66897422675428,2,2,"5","Spartina alterniflora","polyhaline","Sage Lot Pond","winter","microtidal","41.554382","in situ","continental","December",2015
+"567",567,1.00826819435674,1,1,"5","Spartina alterniflora","polyhaline","Sage Lot Pond","winter","microtidal","41.554382","in situ","continental","January",2015
+"568",568,1.18137625513477,4,4,"5","Juncus sp.","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","July",2015
+"569",569,2.27468483045056,17,17,"5","Spartina alterniflora","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","July",2015
+"570",570,0.548136435125681,3,3,"5","Juncus sp.","polyhaline","Sage Lot Pond","spring","microtidal","41.554382","in situ","continental","May",2015
+"571",571,0.579087539646269,1,1,"5","Spartina alterniflora","polyhaline","Sage Lot Pond","spring","microtidal","41.554382","in situ","continental","May",2015
+"572",572,0.6095466603764,2,2,"5","Spartina alterniflora","polyhaline","Sage Lot Pond","fall","microtidal","41.554382","in situ","continental","November",2015
+"573",573,0.516699823789038,2,2,"5","Juncus sp.","polyhaline","Sage Lot Pond","fall","microtidal","41.554382","in situ","continental","October",2015
+"574",574,0.872846593378048,14,14,"5","Spartina alterniflora","polyhaline","Sage Lot Pond","fall","microtidal","41.554382","in situ","continental","October",2015
+"575",575,1.03124735044716,2,2,"5","Juncus sp.","polyhaline","Sage Lot Pond","fall","microtidal","41.554382","in situ","continental","September",2015
+"576",576,1.41055885471651,14,14,"5","Spartina alterniflora","polyhaline","Sage Lot Pond","fall","microtidal","41.554382","in situ","continental","September",2015
+"577",577,6.39269013739273,6,6,"50","Phragmites australis","polyhaline","Round Marsh","summer","microtidal","41.508405","in situ","continental","August",2014
+"578",578,5.19031765035756,6,6,"50","Phragmites australis","oligohaline","Round Marsh","summer","microtidal","41.508405","in situ","continental","July",2014
+"579",579,7.39222909330469,6,6,"50","Phragmites australis","oligohaline","Round Marsh","summer","microtidal","41.508405","in situ","continental","June",2014
+"580",580,8.52321108726323,6,6,"50","Phragmites australis","oligohaline","Round Marsh","spring","microtidal","41.508405","in situ","continental","May",2014
+"581",581,7.23966047220139,3,3,"51","Phragmites australis","polyhaline","Fox Hill","summer","microtidal","41.489731","in situ","continental","August",2014
+"582",582,5.6453887114081,3,3,"51","Phragmites australis","polyhaline","Fox Hill","summer","microtidal","41.489731","in situ","continental","July",2014
+"583",583,6.12565050748135,3,3,"51","Phragmites australis","polyhaline","Fox Hill","summer","microtidal","41.489731","in situ","continental","June",2014
+"584",584,3.89101231176625,3,3,"51","Phragmites australis","oligohaline","Fox Hill","spring","microtidal","41.489731","in situ","continental","May",2014
+"585",585,4.89330728522186,9,9,"51","Phragmites australis","mesohaline","Fox Hill","summer","microtidal","41.489731","in situ","continental","June",2015
+"586",586,4.30963654962673,7,7,"52","Spartina alterniflora","polyhaline","Great Sippewissett Marsh","summer","microtidal","41.588436","in situ","continental","August",2016
+"587",587,5.55529741950593,7,7,"52","Spartina alterniflora","polyhaline","Great Sippewissett Marsh","summer","microtidal","41.588436","in situ","continental","August",2016
+"588",588,3.49742457284713,7,7,"52","Spartina alterniflora","polyhaline","Great Sippewissett Marsh","summer","microtidal","41.588436","in situ","continental","July",2016
+"589",589,4.23141494086751,7,7,"52","Spartina alterniflora","polyhaline","Great Sippewissett Marsh","summer","microtidal","41.588436","in situ","continental","July",2016
+"590",590,3.11104801182267,7,7,"52","Spartina alterniflora","polyhaline","Great Sippewissett Marsh","fall","microtidal","41.588436","in situ","continental","October",2016
+"591",591,3.66421846088644,7,7,"52","Spartina alterniflora","polyhaline","Great Sippewissett Marsh","fall","microtidal","41.588436","in situ","continental","October",2016
+"592",592,3.34762667908564,7,7,"52","Spartina alterniflora","polyhaline","Great Sippewissett Marsh","fall","microtidal","41.588436","in situ","continental","September",2016
+"593",593,5.1416977533053,7,7,"52","Spartina alterniflora","polyhaline","Great Sippewissett Marsh","fall","microtidal","41.588436","in situ","continental","September",2016
+"594",594,3.03910386829584,7,7,"53","Schoenoplectus americanus","oligohaline","Hudson Bay","summer","microtidal","51.483333","discrete","continental","August",1990
+"595",595,2.51350570069321,10.5,10,"53","Schoenoplectus americanus","oligohaline","Hudson Bay","summer","microtidal","51.483333","discrete","continental","July",1990
+"596",596,3.80891100757163,7,7,"53","Schoenoplectus americanus","oligohaline","Hudson Bay","summer","microtidal","51.483333","discrete","continental","June",1990
+"597",597,0.129496765634533,3.5,3,"53","Schoenoplectus americanus","oligohaline","Hudson Bay","fall","microtidal","51.483333","discrete","continental","October",1990
+"598",598,1.76358247011839,3.5,3,"53","Schoenoplectus americanus","oligohaline","Hudson Bay","fall","microtidal","51.483333","discrete","continental","September",1990
+"599",599,2.87898449042997,9,9,"56","Juncus sp.","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","July",2013
+"600",600,2.34833204473765,18,18,"56","Spartina alterniflora","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","July",2013
+"601",601,0.805812899367711,18,18,"56","Juncus sp.","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","June",2013
+"602",602,2.52413757020033,9,9,"56","Spartina alterniflora","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","June",2013
+"603",603,3.46795782755608,6,6,"56","Juncus sp.","euhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","August",2012
+"604",604,2.75642873795771,6,6,"56","Spartina alterniflora","euhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","August",2012
+"605",605,1.76659779993373,9,9,"56","Juncus sp.","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","August",2013
+"606",606,3.80981644957571,6,6,"56","Phragmites australis","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","August",2013
+"607",607,2.79599174427296,18,18,"56","Juncus sp.","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","July",2013
+"608",608,4.65424146428527,6,6,"56","Phragmites australis","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","July",2013
+"609",609,2.58834943535059,18,18,"56","Spartina alterniflora","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","July",2013
+"610",610,1.38938391151529,18,18,"56","Juncus sp.","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","June",2013
+"611",611,2.01091332632106,18,18,"56","Spartina alterniflora","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","June",2013
+"612",612,2.22013720110953,9,9,"56","Juncus sp.","euhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","August",2014
+"613",613,3.88281235485885,6,6,"56","Phragmites australis","euhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","August",2014
+"614",614,2.37148983941032,9,9,"56","Juncus sp.","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","July",2014
+"615",615,3.8181950098002,6,6,"56","Phragmites australis","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","July",2014
+"616",616,2.48683584783857,9,9,"56","Spartina alterniflora","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","July",2014
+"617",617,1.9684640606541,9,9,"56","Juncus sp.","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","June",2014
+"618",618,3.02182450434378,6,6,"56","Phragmites australis","polyhaline","Sage Lot Pond","summer","microtidal","41.554382","in situ","continental","June",2014
+"619",619,1.14955208587213,9,9,"56","Juncus sp.","polyhaline","Sage Lot Pond","spring","microtidal","41.554382","in situ","continental","May",2014
+"620",620,1.76659779993373,6,6,"56","Phragmites australis","polyhaline","Sage Lot Pond","spring","microtidal","41.554382","in situ","continental","May",2014
+"621",621,2.97541192720033,1,1,"57","Spartina patens","polyhaline","Plum Island","summer","mesotidal","42.759","discrete","continental","June",2009
+"622",622,-0.209416832145046,2,2,"57","Spartina patens","polyhaline","Plum Island","summer","mesotidal","42.759","discrete","continental","June",2010
+"623",623,4.12200648485378,5,5,"57","Spartina patens","polyhaline","Plum Island","summer","mesotidal","42.759","discrete","continental","June",2009
+"624",624,3.18227371445909,12,12,"58","Spartina alterniflora","euhaline","Mary Donovan's","summer","microtidal","41.546004","in situ","continental","August",2016
+"625",625,3.01401875135393,12,12,"58","Spartina alterniflora","euhaline","Mary Donovan's","summer","microtidal","41.546004","in situ","continental","July",2016
+"626",626,2.74241392449536,12,12,"58","Spartina alterniflora","euhaline","Mary Donovan's","summer","microtidal","41.546004","in situ","continental","June",2016
+"627",627,0.525480447978513,12,12,"58","Spartina alterniflora","polyhaline","Mary Donovan's","fall","microtidal","41.546004","in situ","continental","November",2016
+"628",628,1.70506804432412,12,12,"58","Spartina alterniflora","polyhaline","Mary Donovan's","fall","microtidal","41.546004","in situ","continental","October",2016
+"629",629,2.75262579611311,12,12,"58","Spartina alterniflora","euhaline","Nag Marsh","summer","microtidal","41.62642","in situ","continental","August",2016
+"630",630,2.55703614583272,12,12,"58","Spartina alterniflora","euhaline","Nag Marsh","summer","microtidal","41.62642","in situ","continental","July",2016
+"631",631,3.37054471594193,12,12,"58","Spartina alterniflora","euhaline","Mary's Creek","summer","microtidal","41.68843","in situ","continental","August",2016
+"632",632,4.35250609098364,12,12,"58","Spartina alterniflora","euhaline","Mary's Creek","summer","microtidal","41.68843","in situ","continental","July",2016
+"633",633,3.731554663906,12,12,"58","Spartina alterniflora","euhaline","Mary's Creek","summer","microtidal","41.68843","in situ","continental","June",2016
+"634",634,1.72942068567028,12,12,"58","Spartina alterniflora","euhaline","Mary's Creek","fall","microtidal","41.68843","in situ","continental","November",2016
+"635",635,2.01140366906056,12,12,"58","Spartina alterniflora","euhaline","Mary's Creek","fall","microtidal","41.68843","in situ","continental","October",2016
+"636",636,1.99550875827614,1,1,"58","Spartina alterniflora","euhaline","Mary's Creek","summer","microtidal","41.68843","in situ","continental","August",2017
+"637",637,2.89565019582055,2,2,"58","Spartina alterniflora","euhaline","Mary's Creek","summer","microtidal","41.68843","in situ","continental","August",2017
+"638",638,3.03916883103879,4,4,"58","Spartina patens","euhaline","Mary's Creek","summer","microtidal","41.68843","in situ","continental","August",2017
+"639",639,2.62987870645307,4,4,"58","Spartina alterniflora","euhaline","Mary's Creek","summer","microtidal","41.68843","in situ","continental","July",2017
+"640",640,3.78425158347268,4,4,"58","Spartina alterniflora","euhaline","Mary's Creek","summer","microtidal","41.68843","in situ","continental","June",2017
+"641",641,2.66649843629722,4,4,"58","Spartina alterniflora","euhaline","Mary's Creek","summer","microtidal","41.68843","in situ","continental","June",2017
+"642",642,3.04203066209206,1,1,"58","Spartina alterniflora","euhaline","Mary's Creek","fall","microtidal","41.68843","in situ","continental","September",2017
+"643",643,3.03149718358408,4,4,"58","Spartina alterniflora","euhaline","Mary's Creek","fall","microtidal","41.68843","in situ","continental","September",2017
+"644",644,2.76524687133129,4,4,"58","Spartina patens","euhaline","Mary's Creek","fall","microtidal","41.68843","in situ","continental","September",2017
+"645",645,1.85469493709102,6,6,"6","Scirpus mariqueter","oligohaline","Shanghai Jiuduansha Wetland Nature Reserve","spring","mesotidal","31.241407","discrete","subtropical/warm temperate","April",2004
+"646",646,2.5294179424642,6,6,"6","Spartina alterniflora","oligohaline","Shanghai Jiuduansha Wetland Nature Reserve","spring","mesotidal","31.241407","discrete","subtropical/warm temperate","April",2004
+"647",647,3.35716794916868,6,6,"6","Scirpus mariqueter","oligohaline","Shanghai Jiuduansha Wetland Nature Reserve","summer","mesotidal","31.241407","discrete","subtropical/warm temperate","August",2004
+"648",648,3.47950666823078,6,6,"6","Spartina alterniflora","oligohaline","Shanghai Jiuduansha Wetland Nature Reserve","summer","mesotidal","31.241407","discrete","subtropical/warm temperate","August",2004
+"649",649,2.42553491805623,6,6,"6","Scirpus mariqueter","oligohaline","Shanghai Jiuduansha Wetland Nature Reserve","summer","mesotidal","31.241407","discrete","subtropical/warm temperate","June",2004
+"650",650,2.5294179424642,6,6,"6","Spartina alterniflora","oligohaline","Shanghai Jiuduansha Wetland Nature Reserve","summer","mesotidal","31.241407","discrete","subtropical/warm temperate","June",2004
+"651",651,0.588722754054437,6,6,"6","Scirpus mariqueter","oligohaline","Shanghai Jiuduansha Wetland Nature Reserve","fall","mesotidal","31.241407","discrete","subtropical/warm temperate","October",2004
+"652",652,1.0454985730609,6,6,"6","Spartina alterniflora","oligohaline","Shanghai Jiuduansha Wetland Nature Reserve","fall","mesotidal","31.241407","discrete","subtropical/warm temperate","October",2004
+"653",653,4.22978639648876,6,6,"60","Spartina alterniflora","polyhaline","Plum Island","summer","mesotidal","42.798611","in situ","continental","August",2017
+"654",654,1.09781203258959,6,6,"60","Spartina patens","polyhaline","Plum Island","summer","mesotidal","42.798611","in situ","continental","August",2017
+"655",655,3.64058788464823,6,6,"60","Spartina alterniflora","polyhaline","Plum Island","summer","mesotidal","42.798611","in situ","continental","July",2017
+"656",656,1.69374768129573,6,6,"60","Spartina patens","polyhaline","Plum Island","summer","mesotidal","42.798611","in situ","continental","July",2017
+"657",657,3.07150517096207,6,6,"60","Spartina alterniflora","polyhaline","Plum Island","summer","mesotidal","42.798611","in situ","continental","June",2017
+"658",658,1.33282283760792,6,6,"60","Spartina patens","polyhaline","Plum Island","summer","mesotidal","42.798611","in situ","continental","June",2017
+"659",659,4.70852986353382,6,6,"60","Spartina alterniflora","polyhaline","Plum Island","summer","mesotidal","42.798611","in situ","continental","August",2018
+"660",660,3.01675766791241,6,6,"60","Spartina patens","polyhaline","Plum Island","summer","mesotidal","42.798611","in situ","continental","August",2018
+"661",661,3.92181104972849,6,6,"60","Spartina alterniflora","polyhaline","Plum Island","summer","mesotidal","42.798611","in situ","continental","July",2018
+"662",662,2.54556489733564,6,6,"60","Spartina patens","polyhaline","Plum Island","summer","mesotidal","42.798611","in situ","continental","July",2018
+"663",663,3.24536017889099,6,6,"60","Spartina alterniflora","polyhaline","Plum Island","summer","mesotidal","42.798611","in situ","continental","June",2018
+"664",664,2.57869091322577,6,6,"60","Spartina patens","polyhaline","Plum Island","summer","mesotidal","42.798611","in situ","continental","June",2018
+"665",665,3.49049423887597,9,9,"61","Schoenoplectus americanus","mesohaline","Kirkpatrick Marsh","summer","microtidal","38.874417","in situ","subtropical/warm temperate","June, July, August",2017
+"666",666,3.90491743288471,9,9,"61","Schoenoplectus americanus","mesohaline","Kirkpatrick Marsh","summer","microtidal","38.874417","in situ","subtropical/warm temperate","June, July, August",2018
+"667",667,3.57259613603283,9,9,"61","Schoenoplectus americanus","mesohaline","Kirkpatrick Marsh","summer","microtidal","38.874417","in situ","subtropical/warm temperate","June, July, August",2019
+"668",668,3.44676071461302,9,9,"61","Schoenoplectus americanus","mesohaline","Kirkpatrick Marsh","summer","microtidal","38.874417","in situ","subtropical/warm temperate","June, July, August",2020
+"669",669,2.53656741842237,36,36,"62","Distichlis Spicata","mesohaline","Kirkpatrick Marsh","annual","microtidal","38.874417","in situ","subtropical/warm temperate","January, Febuary, March, April, May, June, July, August, September, October, Novemeber, December",2017
+"670",670,4.57632259335163,36,36,"62","Distichlis Spicata","mesohaline","Kirkpatrick Marsh","annual","microtidal","38.874417","in situ","subtropical/warm temperate","January, Febuary, March, April, May, June, July, August, September, October, Novemeber, December",2018
+"671",671,3.84690511001956,36,36,"62","Distichlis Spicata","mesohaline","Kirkpatrick Marsh","annual","microtidal","38.874417","in situ","subtropical/warm temperate","January, Febuary, March, April, May, June, July, August, September, October, Novemeber, December",2019
+"672",672,-0.588722754054437,6,6,"63","Suaeda salsa","mesohaline","Liaohe Delta","spring","mesotidal","40.960728","discrete","continental","April",2012
+"673",673,-2.5294179424642,6,6,"63","Suaeda salsa","mesohaline","Liaohe Delta","summer","mesotidal","40.960728","discrete","continental","August",2012
+"674",674,-1.38392671373339,6,6,"63","Suaeda salsa","mesohaline","Liaohe Delta","summer","mesotidal","40.960728","discrete","continental","July",2012
+"675",675,0,6,6,"63","Suaeda salsa","mesohaline","Liaohe Delta","summer","mesotidal","40.960728","discrete","continental","June",2012
+"676",676,-1.6447395780742,6,6,"63","Suaeda salsa","mesohaline","Liaohe Delta","spring","mesotidal","40.960728","discrete","continental","May",2012
+"677",677,2.42553491805623,6,6,"63","Suaeda salsa","mesohaline","Liaohe Delta","fall","mesotidal","40.960728","discrete","continental","November",2012
+"678",678,2.62363073595985,6,6,"63","Suaeda salsa","mesohaline","Liaohe Delta","fall","mesotidal","40.960728","discrete","continental","October",2012
+"679",679,-2.5294179424642,6,6,"63","Suaeda salsa","mesohaline","Liaohe Delta","fall","mesotidal","40.960728","discrete","continental","September",2012
+"680",680,0.653682117770383,4,4,"64","Sporobolus virginicus","polyhaline","Towra Point Nature Reserve","winter","microtidal","-34.021891","in situ","subtropical/warm temperate","August",2018
+"681",681,-0.451950276427087,4,4,"64","Sporobolus virginicus","polyhaline","Towra Point Nature Reserve","spring","microtidal","-34.021891","in situ","subtropical/warm temperate","November",2018
+"682",682,-0.25688438108575,4,4,"64","Sporobolus virginicus","polyhaline","Towra Point Nature Reserve","spring","microtidal","-34.021891","in situ","subtropical/warm temperate","September",2018
+"683",683,0.356036216443189,4,4,"64","Sporobolus virginicus","polyhaline","Towra Point Nature Reserve","fall","microtidal","-34.021891","in situ","subtropical/warm temperate","March",2019
+"684",684,5.95408089312064,5,5,"65","Spartina alterniflora","oligohaline","West River Marsh","summer","microtidal","41.271417","in situ","continental","August",2019
+"685",685,0,6,6,"66","Spartina alterniflora","oligohaline","Marsh Resource Meadowlands Mitigation Bank","spring","microtidal","40.82","discrete","continental","April",2012
+"686",686,5.41771881301452,3,3,"66","Spartina alterniflora","oligohaline","Marsh Resource Meadowlands Mitigation Bank","summer","microtidal","40.82","discrete","continental","August",2012
+"687",687,3.3882393909227,6,6,"66","Spartina alterniflora","oligohaline","Marsh Resource Meadowlands Mitigation Bank","winter","microtidal","40.82","discrete","continental","December",2012
+"688",688,-0.652666566082356,6,6,"66","Spartina alterniflora","oligohaline","Marsh Resource Meadowlands Mitigation Bank","winter","microtidal","40.82","discrete","continental","February",2012
+"689",689,0.652666566082356,6,6,"66","Spartina alterniflora","oligohaline","Marsh Resource Meadowlands Mitigation Bank","winter","microtidal","40.82","discrete","continental","January",2012
+"690",690,4.80850409604855,6,6,"66","Spartina alterniflora","oligohaline","Marsh Resource Meadowlands Mitigation Bank","summer","microtidal","40.82","discrete","continental","July",2012
+"691",691,4.05624998769608,6,6,"66","Spartina alterniflora","oligohaline","Marsh Resource Meadowlands Mitigation Bank","summer","microtidal","40.82","discrete","continental","June",2012
+"692",692,3.71026100913097,3,3,"66","Spartina alterniflora","oligohaline","Marsh Resource Meadowlands Mitigation Bank","spring","microtidal","40.82","discrete","continental","May",2012
+"693",693,4.25467890727627,6,6,"66","Spartina alterniflora","oligohaline","Marsh Resource Meadowlands Mitigation Bank","fall","microtidal","40.82","discrete","continental","November",2012
+"694",694,4.99644685881733,6,6,"66","Spartina alterniflora","oligohaline","Marsh Resource Meadowlands Mitigation Bank","fall","microtidal","40.82","discrete","continental","October",2012
+"695",695,5.89159659346133,6,6,"66","Spartina alterniflora","oligohaline","Marsh Resource Meadowlands Mitigation Bank","fall","microtidal","40.82","discrete","continental","September",2012
+"696",696,7.3287042039738,3,3,"67","Spartina alterniflora","mesohaline","Cocodrie Marsh","summer","microtidal","29.226625","discrete","subtropical/warm temperate","August",2013
+"697",697,6.72024812849419,3,3,"67","Spartina alterniflora","mesohaline","Cocodrie Marsh","summer","microtidal","29.226625","discrete","subtropical/warm temperate","July",2013
+"698",698,5.06468661559736,3,3,"67","Spartina alterniflora","mesohaline","Cocodrie Marsh","fall","microtidal","29.226625","discrete","subtropical/warm temperate","November",2013
+"699",699,6.76581062190726,3,3,"67","Spartina alterniflora","mesohaline","Cocodrie Marsh","fall","microtidal","29.226625","discrete","subtropical/warm temperate","October",2013
+"700",700,7.3384762595828,3,3,"67","Spartina alterniflora","mesohaline","Cocodrie Marsh","fall","microtidal","29.226625","discrete","subtropical/warm temperate","September",2013
+"701",701,5.06468661559736,3,3,"67","Spartina alterniflora","mesohaline","Cocodrie Marsh","spring","microtidal","29.226625","discrete","subtropical/warm temperate","April",2014
+"702",702,6.32748571151133,3,3,"67","Spartina alterniflora","mesohaline","Cocodrie Marsh","summer","microtidal","29.226625","discrete","subtropical/warm temperate","August",2014
+"703",703,4.36375642719923,3,3,"67","Spartina alterniflora","mesohaline","Cocodrie Marsh","winter","microtidal","29.226625","discrete","subtropical/warm temperate","February",2014
+"704",704,4.26370889701379,3,3,"67","Spartina alterniflora","mesohaline","Cocodrie Marsh","winter","microtidal","29.226625","discrete","subtropical/warm temperate","January",2014
+"705",705,5.70526764586471,3,3,"67","Spartina alterniflora","mesohaline","Cocodrie Marsh","summer","microtidal","29.226625","discrete","subtropical/warm temperate","June",2014
+"706",706,4.77440781260854,3,3,"67","Spartina alterniflora","mesohaline","Cocodrie Marsh","spring","microtidal","29.226625","discrete","subtropical/warm temperate","March",2014
+"707",707,4.83564322350068,3,3,"67","Spartina alterniflora","mesohaline","Cocodrie Marsh","spring","microtidal","29.226625","discrete","subtropical/warm temperate","May",2014
+"708",708,5.1078711878941,5,5,"69","Phragmites australis","mesohaline","Sage Lot Pond","summer","microtidal","41.5583","in situ","continental","August",2020
+"709",709,3.46571248789199,5,5,"69","Phragmites australis","polyhaline","Sage Lot Pond","summer","microtidal","41.5583","in situ","continental","August",2020
+"710",710,5.93661398830061,5,5,"69","Phragmites australis","mesohaline","Sage Lot Pond","summer","microtidal","41.5583","in situ","continental","July",2020
+"711",711,3.46571248789199,5,5,"69","Phragmites australis","polyhaline","Sage Lot Pond","summer","microtidal","41.5583","in situ","continental","July",2020
+"712",712,3.46571248789199,5,5,"69","Phragmites australis","mesohaline","Sage Lot Pond","fall","microtidal","41.5583","in situ","continental","November",2020
+"713",713,0,5,5,"69","Phragmites australis","polyhaline","Sage Lot Pond","fall","microtidal","41.5583","in situ","continental","November",2020
+"714",714,4.31317738145131,5,5,"69","Phragmites australis","mesohaline","Sage Lot Pond","fall","microtidal","41.5583","in situ","continental","October",2020
+"715",715,2.37481567015686,5,5,"69","Phragmites australis","polyhaline","Sage Lot Pond","fall","microtidal","41.5583","in situ","continental","October",2020
+"716",716,4.44654623733214,5,5,"69","Phragmites australis","mesohaline","Sage Lot Pond","fall","microtidal","41.5583","in situ","continental","September",2020
+"717",717,2.77547951402259,5,5,"69","Phragmites australis","polyhaline","Sage Lot Pond","fall","microtidal","41.5583","in situ","continental","September",2020
+"718",718,5.73436092822868,5,5,"69","Phragmites australis","mesohaline","Herring River ","summer","microtidal","41.938","in situ","continental","August",2020
+"719",719,7.53191273218194,5,5,"69","Phragmites australis","mesohaline","Herring River ","summer","microtidal","41.938","in situ","continental","August",2020
+"720",720,6.88894040307175,5,5,"69","Phragmites australis","mesohaline","Herring River ","summer","microtidal","41.938","in situ","continental","July",2020
+"721",721,6.79790594375353,5,5,"69","Phragmites australis","mesohaline","Herring River ","summer","microtidal","41.938","in situ","continental","July",2020
+"722",722,5.31165272294922,5,5,"69","Phragmites australis","mesohaline","Herring River ","fall","microtidal","41.938","in situ","continental","November",2020
+"723",723,5.92244313587773,5,5,"69","Phragmites australis","mesohaline","Herring River ","fall","microtidal","41.938","in situ","continental","November",2020
+"724",724,5.86366197291249,5,5,"69","Phragmites australis","mesohaline","Herring River ","fall","microtidal","41.938","in situ","continental","October",2020
+"725",725,6.87244415081182,5,5,"69","Phragmites australis","mesohaline","Herring River ","fall","microtidal","41.938","in situ","continental","October",2020
+"726",726,6.41012495443521,5,5,"69","Phragmites australis","mesohaline","Herring River ","fall","microtidal","41.938","in situ","continental","September",2020
+"727",727,7.1587822710694,5,5,"69","Phragmites australis","mesohaline","Herring River ","fall","microtidal","41.938","in situ","continental","September",2020
+"728",728,7.48446085937971,30,30,"7","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","July",2015
+"729",729,5.44961125792452,27,27,"7","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","March",2015
+"730",730,5.72342960025457,33,33,"7","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","November",2015
+"731",731,9.23951075870925,6,6,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","summer","microtidal","39.089173","in situ","subtropical/warm temperate","August",2014
+"732",732,6.91572443281983,6,6,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","summer","microtidal","39.089173","in situ","subtropical/warm temperate","August",2014
+"733",733,4.27685896445821,6,6,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","fall","microtidal","39.089173","in situ","subtropical/warm temperate","November",2014
+"734",734,4.27685896445821,6,6,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","fall","microtidal","39.089173","in situ","subtropical/warm temperate","November",2014
+"735",735,5.27531441603784,18,18,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","fall","microtidal","39.089173","in situ","subtropical/warm temperate","October",2014
+"736",736,5.65777741570224,18,18,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","fall","microtidal","39.089173","in situ","subtropical/warm temperate","October",2014
+"737",737,5.88611174741023,6,6,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","fall","microtidal","39.089173","in situ","subtropical/warm temperate","September",2014
+"738",738,4.27685896445821,6,6,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","fall","microtidal","39.089173","in situ","subtropical/warm temperate","September",2014
+"739",739,4.27685896445821,6,6,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","spring","microtidal","39.089173","in situ","subtropical/warm temperate","April",2015
+"740",740,4.27685896445821,6,6,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","spring","microtidal","39.089173","in situ","subtropical/warm temperate","April",2015
+"741",741,5.66297253624508,6,6,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","summer","microtidal","39.089173","in situ","subtropical/warm temperate","August",2015
+"742",742,4.9698615213965,6,6,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","summer","microtidal","39.089173","in situ","subtropical/warm temperate","August",2015
+"743",743,7.13845994417112,12,12,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","summer","microtidal","39.089173","in situ","subtropical/warm temperate","July",2015
+"744",744,8.53924683892016,12,12,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","summer","microtidal","39.089173","in situ","subtropical/warm temperate","July",2015
+"745",745,5.31648481961113,12,12,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","summer","microtidal","39.089173","in situ","subtropical/warm temperate","June",2015
+"746",746,5.31648481961113,12,12,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","summer","microtidal","39.089173","in situ","subtropical/warm temperate","June",2015
+"747",747,4.27685896445821,18,18,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","spring","microtidal","39.089173","in situ","subtropical/warm temperate","March",2015
+"748",748,0,18,18,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","spring","microtidal","39.089173","in situ","subtropical/warm temperate","March",2015
+"749",749,6.55884327067205,12,12,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","spring","microtidal","39.089173","in situ","subtropical/warm temperate","May",2015
+"750",750,4.27685896445821,12,12,"70","Spartina alterniflora","mesohaline","St. Jones Reserve","spring","microtidal","39.089173","in situ","subtropical/warm temperate","May",2015
+"751",751,0.754383581075516,495,495,"71","Salicornia sp.","polyhaline","Mount Eden Creek Marsh","summer","microtidal","37.6156","in situ","mediterranean","June",2020
+"752",752,1.75591618864848,495,495,"71","Spartina foliosa","polyhaline","Mount Eden Creek Marsh","summer","microtidal","37.6156","in situ","mediterranean","June",2020
+"753",753,4.33150637992856,3,3,"72","Phragmites australis","oligohaline","Chongming Dongtan Wetland","spring","mesotidal","31.501302","discrete","subtropical/warm temperate","April",2012
+"754",754,5.42448574819231,3,3,"72","Spartina alterniflora","oligohaline","Chongming Dongtan Wetland","spring","mesotidal","31.501302","discrete","subtropical/warm temperate","April",2012
+"755",755,5.77342888167556,3,3,"72","Phragmites australis","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.501302","discrete","subtropical/warm temperate","July",2012
+"756",756,4.55130435841952,3,3,"72","Spartina alterniflora","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.501302","discrete","subtropical/warm temperate","July",2012
+"757",757,7.52362997584358,3,3,"72","Phragmites australis","oligohaline","Chongming Dongtan Wetland","fall","mesotidal","31.501302","discrete","subtropical/warm temperate","October",2012
+"758",758,7.77479463294553,3,3,"72","Spartina alterniflora","oligohaline","Chongming Dongtan Wetland","fall","mesotidal","31.501302","discrete","subtropical/warm temperate","October",2012
+"759",759,0.588722754054437,72,72,"73","Juncus sp.","mesohaline","Reference","annual","microtidal","34.82","discrete","subtropical/warm temperate","March, April, May; November, December, January, February, March; May, June, July, August, September, October, November; March, April, May, June, July, August, September, October, November",2011
+"760",760,1.6447395780742,72,72,"73","Spartina alterniflora","mesohaline","Reference","annual","microtidal","34.82","discrete","subtropical/warm temperate","March, April, May; November, December, January, February, March; May, June, July, August, September, October, November; March, April, May, June, July, August, September, October, November",2011
+"761",761,3.9000156270637,15,15,"74","Spartina alterniflora","mesohaline"," S. alterniflora coastal marsh","summer","microtidal","38.006889","discrete","continental","August",2013
+"762",762,0.217619032415504,15,15,"74","Spartina alterniflora","polyhaline"," S. alterniflora coastal marsh","winter","microtidal","38.006889","discrete","continental","December",2013
+"763",763,3.35306141781528,15,15,"74","Spartina alterniflora","mesohaline"," S. alterniflora coastal marsh","summer","microtidal","38.006889","discrete","continental","June",2013
+"764",764,2.22595127042038,15,15,"74","Spartina alterniflora","mesohaline"," S. alterniflora coastal marsh","fall","microtidal","38.006889","discrete","continental","October",2013
+"765",765,-1.3784896987982,12,12,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2011
+"766",766,1.35490252288434,6,6,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2011
+"767",767,2.02963160879278,3,3,"77","Suaeda salsa","polyhaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2011
+"768",768,-1.77222564376326,15,15,"77","Suaeda salsa","polyhaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2011
+"769",769,-0.936530977918635,9,9,"77","Suaeda salsa","polyhaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2011
+"770",770,0.211203364803952,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","November",2011
+"771",771,0.597689280114591,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","November",2011
+"772",772,0.32894791561484,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","November",2011
+"773",773,0.630018995179341,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","October",2011
+"774",774,0.300454878413473,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","October",2011
+"775",775,0,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","October",2011
+"776",776,-0.223573397285579,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","September",2011
+"777",777,0.53804763022702,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","September",2011
+"778",778,-0.165968400189353,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","September",2011
+"779",779,0,9,9,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2012
+"780",780,-1.11812605625946,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2012
+"781",781,0,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2012
+"782",782,-0.228387909503232,6,6,"77","Suaeda salsa","polyhaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2012
+"783",783,0.0913551638012926,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","November",2012
+"784",784,-0.235489101621775,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","November",2012
+"785",785,0.276007268999066,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","November",2012
+"786",786,0.697088422162811,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","October",2012
+"787",787,0.217801433197267,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","October",2012
+"788",788,0.724172639850866,15,15,"77","Suaeda salsa","oligohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","October",2012
+"789",789,0.291524099880116,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","September",2012
+"790",790,-0.941733595801407,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","September",2012
+"791",791,-0.488683538229092,15,15,"77","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","September",2012
+"792",792,-1.76863395502846,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2010
+"793",793,-0.908986617645224,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2010
+"794",794,-0.43582613468247,15,15,"79","Suaeda salsa","polyhaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2010
+"795",795,-0.709676275068962,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","November",2010
+"796",796,-0.564967113694347,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","November",2010
+"797",797,-0.588106552903409,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","November",2010
+"798",798,-0.178987190722025,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","October",2010
+"799",799,0.510645160203472,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","October",2010
+"800",800,1.15736180811038,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","October",2010
+"801",801,0.213440618450997,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","September",2010
+"802",802,2.7469380309827,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","September",2010
+"803",803,0.650912399321191,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","September",2010
+"804",804,-1.0803898361182,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","spring","microtidal","37.7741","discrete","continental","April",2011
+"805",805,0.474270584180511,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","spring","microtidal","37.7741","discrete","continental","April",2011
+"806",806,-1.09331295114311,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","spring","microtidal","37.7741","discrete","continental","April",2011
+"807",807,-1.6588205490982,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","summer","microtidal","37.7741","discrete","continental","July",2011
+"808",808,1.20488665942398,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","summer","microtidal","37.7741","discrete","continental","July",2011
+"809",809,0.323232338266266,15,15,"79","Suaeda salsa","oligohaline","Nature Reserve of Yellow River Delta","summer","microtidal","37.7741","discrete","continental","July",2011
+"810",810,-0.817145430416491,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","summer","microtidal","37.7741","discrete","continental","June",2011
+"811",811,-1.97914583568254,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","summer","microtidal","37.7741","discrete","continental","June",2011
+"812",812,-1.18511283844086,15,15,"79","Suaeda salsa","oligohaline","Nature Reserve of Yellow River Delta","summer","microtidal","37.7741","discrete","continental","June",2011
+"813",813,0.258434011578389,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","spring","microtidal","37.7741","discrete","continental","May",2011
+"814",814,1.01762468065775,15,15,"79","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","spring","microtidal","37.7741","discrete","continental","May",2011
+"815",815,-0.588722754054437,27,27,"8","Phragmites australis","oligohaline","Yellow River delta wetland","fall","microtidal","37.780494","discrete","continental","fall",2011
+"816",816,-0.588722754054437,27,27,"8","Suaeda salsa","oligohaline","Yellow River delta wetland","fall","microtidal","37.780494","discrete","continental","fall",2011
+"817",817,-1.0454985730609,27,27,"8","Tamarix chinensis","mesohaline","Yellow River delta wetland","fall","microtidal","37.780494","discrete","continental","fall",2011
+"818",818,1.0454985730609,27,27,"8","Phragmites australis","oligohaline","Yellow River delta wetland","spring","microtidal","37.780494","discrete","continental","spring",2011
+"819",819,3.7473762968828,27,27,"8","Suaeda salsa","oligohaline","Yellow River delta wetland","spring","microtidal","37.780494","discrete","continental","spring",2011
+"820",820,-2.70980504576868,27,27,"8","Tamarix chinensis","mesohaline","Yellow River delta wetland","spring","microtidal","37.780494","discrete","continental","spring",2011
+"821",821,3.55348383180558,27,27,"8","Phragmites australis","oligohaline","Yellow River delta wetland","summer","microtidal","37.780494","discrete","continental","summer",2011
+"822",822,-2.02963160879278,27,27,"8","Suaeda salsa","oligohaline","Yellow River delta wetland","summer","microtidal","37.780494","discrete","continental","summer",2011
+"823",823,4.0049814516607,27,27,"8","Tamarix chinensis","mesohaline","Yellow River delta wetland","summer","microtidal","37.780494","discrete","continental","summer",2011
+"824",824,0.588722754054437,27,27,"8","Phragmites australis","oligohaline","Yellow River delta wetland","winter","microtidal","37.780494","discrete","continental","winter",2011
+"825",825,0.588722754054437,27,27,"8","Suaeda salsa","oligohaline","Yellow River delta wetland","winter","microtidal","37.780494","discrete","continental","winter",2011
+"826",826,-0.588722754054437,27,27,"8","Tamarix chinensis","mesohaline","Yellow River delta wetland","winter","microtidal","37.780494","discrete","continental","winter",2011
+"827",827,-1.62151485200522,15,15,"81","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2009
+"828",828,-0.697366496464076,15,15,"81","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2009
+"829",829,-0.276785342746679,15,15,"81","Suaeda salsa","polyhaline","Nature Reserve of Yellow River Delta","winter","microtidal","37.7741","discrete","continental","December",2009
+"830",830,-0.121304099450345,15,15,"81","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","October",2009
+"831",831,0.315319735089084,15,15,"81","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","October",2009
+"832",832,1.25878135728122,15,15,"81","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","fall","microtidal","37.7741","discrete","continental","October",2009
+"833",833,-1.26583460465091,15,15,"81","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","spring","microtidal","37.7741","discrete","continental","April",2010
+"834",834,0.561420491389024,15,15,"81","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","spring","microtidal","37.7741","discrete","continental","April",2010
+"835",835,-0.688850750332427,15,15,"81","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","spring","microtidal","37.7741","discrete","continental","April",2010
+"836",836,-1.36553092587607,15,15,"81","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","summer","microtidal","37.7741","discrete","continental","July",2010
+"837",837,1.25861460087398,15,15,"81","Suaeda salsa","mesohaline","Nature Reserve of Yellow River Delta","summer","microtidal","37.7741","discrete","continental","July",2010
+"838",838,0.422734443844856,15,15,"81","Suaeda salsa","oligohaline","Nature Reserve of Yellow River Delta","summer","microtidal","37.7741","discrete","continental","July",2010
+"839",839,4.73139683513522,18,18,"85","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2007
+"840",840,4.73139683513522,18,18,"85","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2007
+"841",841,6.44897314087098,18,18,"85","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2007
+"842",842,6.5083204148234,18,18,"85","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2007
+"843",843,7.39288458844249,18,18,"85","Spartina alterniflora","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2007
+"844",844,7.39747877400861,18,18,"85","Spartina alterniflora","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2007
+"845",845,5.98878691219878,18,18,"85","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2008
+"846",846,5.83359630850912,18,18,"85","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2008
+"847",847,6.51757113385539,18,18,"85","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2008
+"848",848,6.84186642587177,18,18,"85","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2008
+"849",849,7.98390613749605,18,18,"85","Spartina alterniflora","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2008
+"850",850,7.76848878190201,18,18,"85","Spartina alterniflora","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2008
+"851",851,4.79523899701203,18,18,"85","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2009
+"852",852,4.83564322350068,18,18,"85","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2009
+"853",853,6.32302144915732,18,18,"85","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2009
+"854",854,6.86814908923931,18,18,"85","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2009
+"855",855,7.30132798438827,18,18,"85","Spartina alterniflora","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2009
+"856",856,7.20053613017999,18,18,"85","Spartina alterniflora","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, July, September, November",2009
+"857",857,5.51378070373327,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","August",2007
+"858",858,6.34951289629065,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","August",2007
+"859",859,2.62363073595985,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","December",2007
+"860",860,5.18333572293751,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","December",2007
+"861",861,3.85849107692612,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","January",2007
+"862",862,5.82258721615554,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","winter","macrotidal","26.031552","discrete","subtropical/warm temperate","January",2007
+"863",863,7.07375944417037,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","July",2007
+"864",864,7.30970323516688,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","July",2007
+"865",865,7.36486721448036,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","June",2007
+"866",866,6.35602753986515,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","June",2007
+"867",867,4.91186166516091,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","March",2007
+"868",868,5.68853123198295,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","March",2007
+"869",869,6.10934252939288,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","May",2007
+"870",870,6.2366206202507,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","May",2007
+"871",871,6.34076015981442,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","November",2007
+"872",872,6.53581973725395,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","November",2007
+"873",873,6.54839846834848,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","October",2007
+"874",874,6.38166981770891,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","October",2007
+"875",875,6.76437281050178,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","September",2007
+"876",876,7.12018339462082,3,3,"86","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","fall","macrotidal","26.031552","discrete","subtropical/warm temperate","September",2007
+"877",877,4.65136760651366,3,3,"87","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, June, July,  August, September, October, November, December",2007
+"878",878,6.48576317178976,3,3,"87","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, June, July,  August, September, October, November, December",2007
+"879",879,5.91419906825508,3,3,"87","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, June, July,  August, September, October, November, December",2008
+"880",880,6.68349065625479,3,3,"87","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, June, July,  August, September, October, November, December",2008
+"881",881,4.79523899701203,3,3,"87","Cyperus malaccensis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, June, July,  August, September, October, November, December",2009
+"882",882,6.62568984877668,3,3,"87","Phragmites australis","oligohaline","Shanyutan brackish tidal marsh","annual","macrotidal","26.031552","discrete","subtropical/warm temperate","January, March, May, June, July,  August, September, October, November, December",2009
+"883",883,6.1148673484125,3,3,"88","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.50051","discrete","subtropical/warm temperate","August",2004
+"884",884,2.70980504576868,3,3,"88","Scirpus mariqueter","polyhaline","Chongming Dongtan Wetland","winter","mesotidal","31.50051","discrete","subtropical/warm temperate","December",2004
+"885",885,6.94740673847574,24,24,"88","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.50051","discrete","subtropical/warm temperate","July",2004
+"886",886,5.99811812146123,3,3,"88","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.50051","discrete","subtropical/warm temperate","June",2004
+"887",887,3.83184724248048,3,3,"88","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","spring","mesotidal","31.50051","discrete","subtropical/warm temperate","May",2004
+"888",888,4.12221673240515,21,21,"88","Scirpus mariqueter","mesohaline","Chongming Dongtan Wetland","fall","mesotidal","31.50051","discrete","subtropical/warm temperate","October",2004
+"889",889,5.29565858166805,3,3,"88","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","fall","mesotidal","31.50051","discrete","subtropical/warm temperate","September",2004
+"890",890,1.3095737978322,18,18,"88","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","spring","mesotidal","31.50051","discrete","subtropical/warm temperate","April",2005
+"891",891,2.07345164715173,12,12,"88","Scirpus mariqueter","mesohaline","Chongming Dongtan Wetland","winter","mesotidal","31.50051","discrete","subtropical/warm temperate","February",2005
+"892",892,6.22927670420769,3,3,"88","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.50051","discrete","subtropical/warm temperate","August",2004
+"893",893,2.17925003654284,3,3,"88","Scirpus mariqueter","polyhaline","Chongming Dongtan Wetland","winter","mesotidal","31.50051","discrete","subtropical/warm temperate","December",2004
+"894",894,7.12894774309761,24,24,"88","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.50051","discrete","subtropical/warm temperate","July",2004
+"895",895,5.32642874021848,3,3,"88","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","summer","mesotidal","31.50051","discrete","subtropical/warm temperate","June",2004
+"896",896,4.07089840422308,3,3,"88","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","spring","mesotidal","31.50051","discrete","subtropical/warm temperate","May",2004
+"897",897,3.86800784528562,21,21,"88","Scirpus mariqueter","mesohaline","Chongming Dongtan Wetland","fall","mesotidal","31.50051","discrete","subtropical/warm temperate","October",2004
+"898",898,5.49347611258067,3,3,"88","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","fall","mesotidal","31.50051","discrete","subtropical/warm temperate","September",2004
+"899",899,1.5341753090785,3,3,"88","Scirpus mariqueter","mesohaline","Chongming Dongtan Wetland","spring","mesotidal","31.50051","discrete","subtropical/warm temperate","April",2005
+"900",900,1.18687107787776,15,15,"88","Scirpus mariqueter","oligohaline","Chongming Dongtan Wetland","spring","mesotidal","31.50051","discrete","subtropical/warm temperate","April",2005
+"901",901,3.04587499861089,12,12,"88","Scirpus mariqueter","mesohaline","Chongming Dongtan Wetland","winter","mesotidal","31.50051","discrete","subtropical/warm temperate","February",2005
+"902",902,4.53806211689914,4,4,"9","Phragmites australis","oligohaline","Yellow River delta wetland","annual","microtidal","37.777461","discrete","continental","annual",2011
+"903",903,4.53806211689914,4,4,"9","Suaeda salsa","oligohaline","Yellow River delta wetland","annual","microtidal","37.777461","discrete","continental","annual",2011
+"904",904,4.53806211689914,4,4,"9","Tamarix chinensis","mesohaline","Yellow River delta wetland","annual","microtidal","37.777461","discrete","continental","annual",2011
+"905",905,1.85469493709102,9,9,"90","Aeluropus littoralis","oligohaline","Yancheng National Natural Reserve","summer","mesotidal","33.614298","discrete","subtropical/warm temperate","August",2013
+"906",906,3.58851966991101,9,9,"90","Aeluropus littoralis","oligohaline","Yancheng National Natural Reserve","summer","mesotidal","33.614298","discrete","subtropical/warm temperate","August",2013
+"907",907,5.10329848686884,9,9,"90","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.614298","discrete","subtropical/warm temperate","August",2013
+"908",908,4.9996285579416,9,9,"90","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.614298","discrete","subtropical/warm temperate","August",2013
+"909",909,1.38392671373339,9,9,"90","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.614298","discrete","subtropical/warm temperate","August",2013
+"910",910,-3.05589206748961,9,9,"90","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","summer","mesotidal","33.614298","discrete","subtropical/warm temperate","August",2013
+"911",911,1.38392671373339,9,9,"90","Aeluropus littoralis","oligohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December",2013
+"912",912,2.42553491805623,9,9,"90","Aeluropus littoralis","oligohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December",2013
+"913",913,5.26391153096406,9,9,"90","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December",2013
+"914",914,2.5294179424642,9,9,"90","Spartina alterniflora","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December",2013
+"915",915,1.0454985730609,9,9,"90","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December",2013
+"916",916,1.85469493709102,9,9,"90","Suaeda salsa","mesohaline","Yancheng National Natural Reserve","winter","mesotidal","33.614298","discrete","subtropical/warm temperate","December",2013
+"917",917,1.51298253639058,3,3,"92","Suaeda salsa","mesohaline","Research Station of Coastal Wetlan","summer","microtidal","37.615556","in situ","continental","growing season",2018
+"918",918,1.40171820558729,3,3,"92","Suaeda salsa","mesohaline","Research Station of Coastal Wetlan","summer","microtidal","37.615556","in situ","continental","growing season",2018
+"919",919,5.33710986470874,12,12,"94","Spartina alterniflora","mesohaline","Stow Creek ","fall","mesotidal","39.432621","discrete","subtropical/warm temperate","October",2006
+"920",920,-6.07343387131853,6,6,"94","Spartina alterniflora","mesohaline","Stow Creek ","spring","mesotidal","39.432621","discrete","subtropical/warm temperate","April",2007
+"921",921,7.12822932484592,6,6,"94","Spartina alterniflora","mesohaline","Stow Creek ","summer","mesotidal","39.432621","discrete","subtropical/warm temperate","August",2007
+"922",922,-2.63267794400899,12,12,"94","Spartina alterniflora","mesohaline","Stow Creek ","summer","mesotidal","39.432621","discrete","subtropical/warm temperate","July",2007
+"923",923,-6.79107908127362,12,12,"94","Spartina alterniflora","mesohaline","Stow Creek ","summer","mesotidal","39.432621","discrete","subtropical/warm temperate","June",2007
+"924",924,-2.07100541317844,18,18,"94","Spartina alterniflora","mesohaline","Stow Creek ","spring","mesotidal","39.432621","discrete","subtropical/warm temperate","May",2007
+"925",925,-6.07343387131853,6,6,"94","Spartina alterniflora","mesohaline","Stow Creek ","fall","mesotidal","39.432621","discrete","subtropical/warm temperate","October",2007
+"926",926,-8.01466655974706,6,6,"94","Spartina alterniflora","mesohaline","Stow Creek ","fall","mesotidal","39.432621","discrete","subtropical/warm temperate","September",2007
+"927",927,-5.79657351423018,6,6,"94","Spartina alterniflora","mesohaline","Stow Creek ","spring","mesotidal","39.432621","discrete","subtropical/warm temperate","April",2008
+"928",928,-3.89562937263005,6,6,"94","Spartina alterniflora","mesohaline","Stow Creek ","summer","mesotidal","39.432621","discrete","subtropical/warm temperate","August",2008
+"929",929,-5.557486325549,6,6,"94","Spartina alterniflora","mesohaline","Stow Creek ","winter","mesotidal","39.432621","discrete","subtropical/warm temperate","February",2008
+"930",930,-3.89562937263005,6,6,"94","Spartina alterniflora","mesohaline","Stow Creek ","summer","mesotidal","39.432621","discrete","subtropical/warm temperate","July",2008
+"931",931,-5.68415813540494,6,6,"94","Spartina alterniflora","mesohaline","Stow Creek ","summer","mesotidal","39.432621","discrete","subtropical/warm temperate","June",2008
+"932",932,-0.241223151644659,12,12,"94","Spartina alterniflora","mesohaline","Stow Creek ","spring","mesotidal","39.432621","discrete","subtropical/warm temperate","May",2008
+"933",933,4.509147578702,6,6,"94","Spartina alterniflora","mesohaline","Stow Creek ","fall","mesotidal","39.432621","discrete","subtropical/warm temperate","October",2008
+"934",934,3.03885047338815,6,6,"94","Spartina alterniflora","mesohaline","Stow Creek ","summer","mesotidal","39.432621","discrete","subtropical/warm temperate","June",2009
+"935",935,5.58288377423561,6,6,"94","Spartina alterniflora","mesohaline","Stow Creek ","spring","mesotidal","39.432621","discrete","subtropical/warm temperate","May",2009
+"936",936,4.27685896445821,3,3,"95","Spartina alterniflora","polyhaline","Dauphin Island ","spring","microtidal","30.257167","discrete","subtropical/warm temperate","April",2012
+"937",937,5.37529984046561,3,3,"95","Spartina alterniflora","polyhaline","Dauphin Island ","summer","microtidal","30.257167","discrete","subtropical/warm temperate","August",2012
+"938",938,4.27685896445821,3,3,"95","Spartina alterniflora","polyhaline","Dauphin Island ","winter","microtidal","30.257167","discrete","subtropical/warm temperate","December",2012
+"939",939,4.27685896445821,3,3,"95","Spartina alterniflora","polyhaline","Dauphin Island ","winter","microtidal","30.257167","discrete","subtropical/warm temperate","February",2012
+"940",940,0,3,3,"95","Spartina alterniflora","polyhaline","Dauphin Island ","winter","microtidal","30.257167","discrete","subtropical/warm temperate","January",2012
+"941",941,5.37529984046561,3,3,"95","Spartina alterniflora","polyhaline","Dauphin Island ","summer","microtidal","30.257167","discrete","subtropical/warm temperate","July",2012
+"942",942,4.9698615213965,3,3,"95","Spartina alterniflora","polyhaline","Dauphin Island ","summer","microtidal","30.257167","discrete","subtropical/warm temperate","June",2012
+"943",943,4.27685896445821,3,3,"95","Spartina alterniflora","polyhaline","Dauphin Island ","spring","microtidal","30.257167","discrete","subtropical/warm temperate","March",2012
+"944",944,4.9698615213965,3,3,"95","Spartina alterniflora","polyhaline","Dauphin Island ","spring","microtidal","30.257167","discrete","subtropical/warm temperate","May",2012
+"945",945,4.27685896445821,3,3,"95","Spartina alterniflora","polyhaline","Dauphin Island ","fall","microtidal","30.257167","discrete","subtropical/warm temperate","November",2012
+"946",946,5.37529984046561,3,3,"95","Spartina alterniflora","polyhaline","Dauphin Island ","fall","microtidal","30.257167","discrete","subtropical/warm temperate","October",2012
+"947",947,5.88611174741023,3,3,"95","Spartina alterniflora","polyhaline","Dauphin Island ","fall","microtidal","30.257167","discrete","subtropical/warm temperate","September",2012
+"948",948,4.27685896445821,3,3,"95","Spartina alterniflora","polyhaline","Dauphin Island ","winter","microtidal","30.257167","discrete","subtropical/warm temperate","January",2013
+"949",949,4.27685896445821,3,3,"95","Cladium jamaicense","oligohaline","Dog River","spring","microtidal","30.618833","discrete","subtropical/warm temperate","April",2012
+"950",950,4.9698615213965,3,3,"95","Cladium jamaicense","oligohaline","Dog River","summer","microtidal","30.618833","discrete","subtropical/warm temperate","August",2012
+"951",951,0,3,3,"95","Cladium jamaicense","mesohaline","Dog River","winter","microtidal","30.618833","discrete","subtropical/warm temperate","December",2012
+"952",952,0,3,3,"95","Cladium jamaicense","mesohaline","Dog River","winter","microtidal","30.618833","discrete","subtropical/warm temperate","February",2012
+"953",953,0,3,3,"95","Cladium jamaicense","mesohaline","Dog River","winter","microtidal","30.618833","discrete","subtropical/warm temperate","January",2012
+"954",954,6.06843094656867,3,3,"95","Cladium jamaicense","oligohaline","Dog River","summer","microtidal","30.618833","discrete","subtropical/warm temperate","July",2012
+"955",955,4.9698615213965,3,3,"95","Cladium jamaicense","oligohaline","Dog River","summer","microtidal","30.618833","discrete","subtropical/warm temperate","June",2012
+"956",956,0,3,3,"95","Cladium jamaicense","oligohaline","Dog River","spring","microtidal","30.618833","discrete","subtropical/warm temperate","March",2012
+"957",957,4.27685896445821,3,3,"95","Cladium jamaicense","oligohaline","Dog River","spring","microtidal","30.618833","discrete","subtropical/warm temperate","May",2012
+"958",958,4.9698615213965,3,3,"95","Cladium jamaicense","mesohaline","Dog River","fall","microtidal","30.618833","discrete","subtropical/warm temperate","November",2012
+"959",959,4.27685896445821,3,3,"95","Cladium jamaicense","oligohaline","Dog River","fall","microtidal","30.618833","discrete","subtropical/warm temperate","October",2012
+"960",960,5.66297253624508,3,3,"95","Cladium jamaicense","oligohaline","Dog River","fall","microtidal","30.618833","discrete","subtropical/warm temperate","September",2012
+"961",961,4.27685896445821,3,3,"95","Cladium jamaicense","mesohaline","Dog River","winter","microtidal","30.618833","discrete","subtropical/warm temperate","January",2013
+"962",962,5.06298884806497,18,18,"96","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","April",2011
+"963",963,6.19209585172885,18,18,"96","Spartina alterniflora","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","April",2011
+"964",964,6.921191715069,3,3,"96","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","June",2011
+"965",965,7.55804764915368,3,3,"96","Spartina alterniflora","oligohaline","Shanyutan Brackish tidal marsh","summer","macrotidal","26.031552","discrete","subtropical/warm temperate","June",2011
+"966",966,6.18799201996746,24,24,"96","Cyperus malaccensis","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","May",2011
+"967",967,7.00093106091029,24,24,"96","Spartina alterniflora","oligohaline","Shanyutan Brackish tidal marsh","spring","macrotidal","26.031552","discrete","subtropical/warm temperate","May",2011
+"968",968,3.77633254188915,3,3,"98","Phragmites australis","oligohaline","Hangzhou Bay wetland","spring","macrotidal","30.333494","discrete","subtropical/warm temperate","April",2014
+"969",969,-1.85469493709102,3,3,"98","Scirpus mariqueter","oligohaline","Hangzhou Bay wetland","spring","macrotidal","30.333494","discrete","subtropical/warm temperate","April",2014
+"970",970,3.93441426268818,3,3,"98","Spartina alterniflora","oligohaline","Hangzhou Bay wetland","spring","macrotidal","30.333494","discrete","subtropical/warm temperate","April",2014
+"971",971,4.45470125443911,3,3,"98","Phragmites australis","oligohaline","Hangzhou Bay wetland","summer","macrotidal","30.333494","discrete","subtropical/warm temperate","August",2014
+"972",972,2.17925003654284,3,3,"98","Scirpus mariqueter","oligohaline","Hangzhou Bay wetland","summer","macrotidal","30.333494","discrete","subtropical/warm temperate","August",2014
+"973",973,4.72034873130291,3,3,"98","Spartina alterniflora","oligohaline","Hangzhou Bay wetland","summer","macrotidal","30.333494","discrete","subtropical/warm temperate","August",2014
+"974",974,0.588722754054437,3,3,"98","Phragmites australis","oligohaline","Hangzhou Bay wetland","winter","macrotidal","30.333494","discrete","subtropical/warm temperate","December",2014
+"975",975,-1.85469493709102,3,3,"98","Scirpus mariqueter","oligohaline","Hangzhou Bay wetland","winter","macrotidal","30.333494","discrete","subtropical/warm temperate","December",2014
+"976",976,3.58851966991101,3,3,"98","Spartina alterniflora","oligohaline","Hangzhou Bay wetland","winter","macrotidal","30.333494","discrete","subtropical/warm temperate","December",2014
+"977",977,4.68645275853986,3,3,"98","Phragmites australis","oligohaline","Hangzhou Bay wetland","summer","macrotidal","30.333494","discrete","subtropical/warm temperate","July",2014
+"978",978,3.77633254188915,3,3,"98","Scirpus mariqueter","oligohaline","Hangzhou Bay wetland","summer","macrotidal","30.333494","discrete","subtropical/warm temperate","July",2014
+"979",979,5.47275069988684,3,3,"98","Spartina alterniflora","oligohaline","Hangzhou Bay wetland","summer","macrotidal","30.333494","discrete","subtropical/warm temperate","July",2014
+"980",980,4.81564512417347,3,3,"98","Phragmites australis","oligohaline","Hangzhou Bay wetland","summer","macrotidal","30.333494","discrete","subtropical/warm temperate","June",2014
+"981",981,3.21779665038004,3,3,"98","Scirpus mariqueter","oligohaline","Hangzhou Bay wetland","summer","macrotidal","30.333494","discrete","subtropical/warm temperate","June",2014
+"982",982,5.62315007318508,3,3,"98","Spartina alterniflora","oligohaline","Hangzhou Bay wetland","summer","macrotidal","30.333494","discrete","subtropical/warm temperate","June",2014
+"983",983,4.49724985891677,3,3,"98","Phragmites australis","oligohaline","Hangzhou Bay wetland","spring","macrotidal","30.333494","discrete","subtropical/warm temperate","May",2014
+"984",984,3.05589206748961,3,3,"98","Scirpus mariqueter","oligohaline","Hangzhou Bay wetland","spring","macrotidal","30.333494","discrete","subtropical/warm temperate","May",2014
+"985",985,4.81564512417347,3,3,"98","Spartina alterniflora","oligohaline","Hangzhou Bay wetland","spring","macrotidal","30.333494","discrete","subtropical/warm temperate","May",2014
+"986",986,2.5294179424642,3,3,"98","Phragmites australis","oligohaline","Hangzhou Bay wetland","fall","macrotidal","30.333494","discrete","subtropical/warm temperate","November",2014
+"987",987,-3.95849383150047,3,3,"98","Scirpus mariqueter","oligohaline","Hangzhou Bay wetland","fall","macrotidal","30.333494","discrete","subtropical/warm temperate","November",2014
+"988",988,4.24601644622301,3,3,"98","Spartina alterniflora","oligohaline","Hangzhou Bay wetland","fall","macrotidal","30.333494","discrete","subtropical/warm temperate","November",2014
+"989",989,2.7891947442165,3,3,"98","Phragmites australis","oligohaline","Hangzhou Bay wetland","fall","macrotidal","30.333494","discrete","subtropical/warm temperate","October",2014
+"990",990,2.5294179424642,3,3,"98","Scirpus mariqueter","oligohaline","Hangzhou Bay wetland","fall","macrotidal","30.333494","discrete","subtropical/warm temperate","October",2014
+"991",991,3.93441426268818,3,3,"98","Spartina alterniflora","oligohaline","Hangzhou Bay wetland","fall","macrotidal","30.333494","discrete","subtropical/warm temperate","October",2014
+"992",992,4.36375642719923,3,3,"98","Phragmites australis","oligohaline","Hangzhou Bay wetland","fall","macrotidal","30.333494","discrete","subtropical/warm temperate","September",2014
+"993",993,2.7891947442165,3,3,"98","Scirpus mariqueter","oligohaline","Hangzhou Bay wetland","fall","macrotidal","30.333494","discrete","subtropical/warm temperate","September",2014
+"994",994,5.30188882217397,3,3,"98","Spartina alterniflora","oligohaline","Hangzhou Bay wetland","fall","macrotidal","30.333494","discrete","subtropical/warm temperate","September",2014
+"995",995,4.1125478070029,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","spring","mesotidal","30.869225","discrete","subtropical/warm temperate","April",2017
+"996",996,4.9996285579416,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","summer","mesotidal","30.869225","discrete","subtropical/warm temperate","August",2017
+"997",997,4.83564322350068,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","winter","mesotidal","30.869225","discrete","subtropical/warm temperate","December",2017
+"998",998,3.47950666823078,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","winter","mesotidal","30.869225","discrete","subtropical/warm temperate","January",2017
+"999",999,6.12582625985601,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","summer","mesotidal","30.869225","discrete","subtropical/warm temperate","July",2017
+"1000",1000,5.79262296493349,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","summer","mesotidal","30.869225","discrete","subtropical/warm temperate","June",2017
+"1001",1001,3.21779665038004,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","spring","mesotidal","30.869225","discrete","subtropical/warm temperate","March",2017
+"1002",1002,3.55348383180558,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","spring","mesotidal","30.869225","discrete","subtropical/warm temperate","May",2017
+"1003",1003,4.92099317162025,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","fall","mesotidal","30.869225","discrete","subtropical/warm temperate","November",2017
+"1004",1004,5.03268651081513,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","fall","mesotidal","30.869225","discrete","subtropical/warm temperate","October",2017
+"1005",1005,3.90974099747297,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","fall","mesotidal","30.869225","discrete","subtropical/warm temperate","September",2017
+"1006",1006,5.7811507821167,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","spring","mesotidal","30.88483","discrete","subtropical/warm temperate","April",2017
+"1007",1007,8.99693543749498,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","summer","mesotidal","30.88483","discrete","subtropical/warm temperate","August",2017
+"1008",1008,7.85479701859924,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","winter","mesotidal","30.88483","discrete","subtropical/warm temperate","December",2017
+"1009",1009,7.49355253891974,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","winter","mesotidal","30.88483","discrete","subtropical/warm temperate","January",2017
+"1010",1010,9.10506987705538,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","summer","mesotidal","30.88483","discrete","subtropical/warm temperate","July",2017
+"1011",1011,8.27561742949175,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","summer","mesotidal","30.88483","discrete","subtropical/warm temperate","June",2017
+"1012",1012,5.98878691219878,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","spring","mesotidal","30.88483","discrete","subtropical/warm temperate","March",2017
+"1013",1013,7.50665164938724,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","spring","mesotidal","30.88483","discrete","subtropical/warm temperate","May",2017
+"1014",1014,8.12516363431261,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","fall","mesotidal","30.88483","discrete","subtropical/warm temperate","November",2017
+"1015",1015,8.3519903990906,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","fall","mesotidal","30.88483","discrete","subtropical/warm temperate","October",2017
+"1016",1016,8.88261861375144,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","fall","mesotidal","30.88483","discrete","subtropical/warm temperate","September",2017
+"1017",1017,7.4739157544756,15,15,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","winter","mesotidal","30.88483","discrete","subtropical/warm temperate","December",2018
+"1018",1018,8.44846218002703,15,15,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","summer","mesotidal","30.88483","discrete","subtropical/warm temperate","July",2018
+"1019",1019,6.21165480587471,15,15,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","spring","mesotidal","30.88483","discrete","subtropical/warm temperate","March",2018
+"1020",1020,7.91175557093572,15,15,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","fall","mesotidal","30.88483","discrete","subtropical/warm temperate","October",2018
+"1021",1021,6.39216303395568,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","spring","mesotidal","30.967753","discrete","subtropical/warm temperate","April",2017
+"1022",1022,6.2069156985204,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","summer","mesotidal","30.967753","discrete","subtropical/warm temperate","August",2017
+"1023",1023,6.33414496350929,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","winter","mesotidal","30.967753","discrete","subtropical/warm temperate","December",2017
+"1024",1024,6.5394298355014,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","winter","mesotidal","30.967753","discrete","subtropical/warm temperate","January",2017
+"1025",1025,7.26710739777806,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","summer","mesotidal","30.967753","discrete","subtropical/warm temperate","July",2017
+"1026",1026,6.50085772764217,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","summer","mesotidal","30.967753","discrete","subtropical/warm temperate","June",2017
+"1027",1027,5.74989885507734,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","spring","mesotidal","30.967753","discrete","subtropical/warm temperate","March",2017
+"1028",1028,6.78149158690487,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","spring","mesotidal","30.967753","discrete","subtropical/warm temperate","May",2017
+"1029",1029,5.81145556945125,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","fall","mesotidal","30.967753","discrete","subtropical/warm temperate","November",2017
+"1030",1030,5.67150993563639,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","fall","mesotidal","30.967753","discrete","subtropical/warm temperate","October",2017
+"1031",1031,6.39216303395568,5,5,"99","Spartina alterniflora","oligohaline","Nanhui Nearshore salt marsh","fall","mesotidal","30.967753","discrete","subtropical/warm temperate","September",2017
