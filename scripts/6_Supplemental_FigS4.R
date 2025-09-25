@@ -1,34 +1,31 @@
 # -------------------------------------------------------------------------
-#Created 1.13.25 by Emily Wilson, last update 08.20.25 by Emily Wilson
+#Created 1.13.25 by Emily Wilson
+#last update 09.25.25 by Sawyer Balint
 #Title: Plant Species Drive Global Coastal Wetland Methane Fluxes Meta-analysis
 
-#############################################################################
-#############################################################################
-#############################################################################
-#Created 9.08.25 by Emily Wilson
 #Supplemental Figure
 rm(list=ls()) #clear the environment
-#dev.off()
-
-
 
 # install packages --------------------------------------------------------
 library(scales) #for stats
 library(tidyverse) #for data manipulation
 library(patchwork) #to put plots together
-library(mgcv) #for gam
+library(purrr)
+library(broom)
 
+source("functions/utilities.r")
 
+# import data -------------------------------------------------------------
 
-#meta_data<-readRDS("pw_data.RDS")
-meta_data<-read.csv("raw/ch4_soilsalinity_dataset.csv")
+df <- read.csv("raw/ch4_soilsalinity_dataset.csv")
 
-meta_data<-meta_data %>%
+gam.model <- readRDS("Rdata/GAM_SoilSalinity.rds")
+
+# Plot salinity and yi -------------------------------------------------------
+
+meta_data <- df %>%
   filter(!is.na(salinity_conductivity), #no winter bc Poffenbarger et al. is growing season
-         season!="winter")
-
-str(meta_data)
-meta_data <- meta_data %>% #clean up the data
+         season!="winter") %>% #clean up the data
   filter(!is.na(salinity_conductivity),
          salinity_conductivity < 60) %>%  #only include fluxes with soil salinity
   mutate(lat=abs(as.numeric(lat)), #make lat absolute for analysis
@@ -39,38 +36,26 @@ meta_data <- meta_data %>% #clean up the data
          tide=as.factor(tide))%>%
   filter(plant_species!="Juncae sp")
 
-# Plot salinity and yi -------------------------------------------------------
-#custom asinh transform for ggplot
-asinh_trans <- trans_new(
-  name = "asinh",
-  transform = asinh,
-  inverse = sinh
-)
 
-# Step 1: Create a sequence of x values
+# create sequence of x values
 line_data <- data.frame(x = seq(0,
                                 max(meta_data$salinity_conductivity, na.rm = TRUE),
-                                length.out = 100))
+                                length.out = 100)) %>%
+  mutate(y = (((-0.056 * x) + 1.38))/0.34,
+         y = 10^y,
+         y = y*(1/24)*(1/16.04)*(1000/1))
 
-# Step 2: Add y values based on your equation
-line_data <- line_data %>%
-  mutate(y = (((-0.056 * x) + 1.38))/0.34)
+# figure S4 ---------------------------------------------------------------
 
-line_data <- line_data %>%
-  mutate(y = 10^y)
+#get r2
 
-line_data <- line_data %>%
-  mutate(y=y*(1/24)*(1/16.04)*(1000/1))
-
-
-# Predict values for porewater -------------------------
-# No winter -------------------------------------------------------------
-
-# Get R²
 model1<-lm(yi~salinity_conductivity, data=meta_data)
-summary(model1)
+
 r2 <- summary(model1)$r.squared
-r2_label <- expression("_ This Study's Relationship between Salinity and CH"[4] * " flux, R"^2 * " = 0.08")
+
+r2_label <- bquote("This Study's Relationship between Salinity and "*CH[4])
+
+r2_label <- expression("_ This Study's Relationship between Salinity and CH"[4] * " flux, R"^2 * " = 0.10")
 
 # Get predictions with prediction interval
 preds <- predict(model1, newdata = meta_data, interval = "prediction", se.fit = TRUE)
@@ -122,17 +107,15 @@ p1<-ggplot(meta_data, aes(x = salinity_conductivity)) +
     axis.title.x = element_text(size = 7, color = "black", family = "Arial"),
     axis.title.y = element_text(size = 7, color = "black", family = "Arial")) +
   labs(x = "Salinity (ppt)", fill = "Plant Species", shape="Plant Species", y = expression(paste("CH"[4]*" flux (",mu,"mol m"^-2*" hr"^-1*")")), family="Arial")
+
 p1
 
-#meta_data<-readRDS("pw_data.RDS")
-meta_data<-read.csv("raw/ch4_soilsalinity_dataset.csv")
 
-meta_data<-meta_data %>%
+
+
+meta_data<-df %>%
   filter(!is.na(salinity_conductivity), #no winter bc Poffenbarger et al. is growing season
-         season!="winter")
-
-str(meta_data)
-meta_data <- meta_data %>% #clean up the data
+         season!="winter") %>% #clean up the data
   filter(!is.na(salinity_conductivity),
          salinity_conductivity < 60) %>%  #only include fluxes with soil salinity
   mutate(lat=abs(as.numeric(lat)), #make lat absolute for analysis
@@ -188,12 +171,11 @@ meta_data <- meta_data %>%
 
 # Fit model
 model1 <- lm(yi ~ salinity_conductivity, data = meta_data)
-summary(model1)
-plot(model1)
 
 # Get R²
 r2 <- summary(model1)$r.squared
-r2_label <- expression("_ This Study's Relationship between Salinity and CH"[4] * " flux, R"^2 * " = 0.05")
+r2
+r2_label <- expression("_ This Study's Relationship between Salinity and CH"[4] * " flux, R"^2 * " = 0.06")
 
 
 # Get predictions with prediction interval
@@ -247,7 +229,7 @@ p2<-ggplot(meta_data, aes(x = salinity_conductivity)) +
 p2
 p2 <- p2 + theme(legend.position = "none")
 p2 <- p2 + guides(fill = "none", color = "none", shape = "none")
-library(patchwork)
+
 
 combined_plot <- (p1/p2) +
   plot_layout(nrow = 2,guides = "collect") +
@@ -260,99 +242,39 @@ combined_plot <- (p1/p2) +
     legend.text = element_text(size = 6),
     plot.tag = element_text(family = "Arial Black", size = 20)
   )
+
 combined_plot
-ggsave("figures/supp_fig.png", combined_plot, width = 170, height = 260, dpi=300, units = "mm")
 
+ggsave("figures/FigureS4.png", combined_plot, width = 170, height = 260, dpi=300, units = "mm")
 
+# figure S5 ---------------------------------------------------------------
 
-#meta_data<-readRDS("pw_data.RDS")
-meta_data<-read.csv("raw/ch4_soilsalinity_dataset.csv")
-library(purrr)
-library(broom)
-
-# 1. Filter species with >10 complete observations
-species_to_keep <- meta_data %>%
-  filter(!is.na(yi) & !is.na(salinity_conductivity)) %>%
+meta_data <- df %>%
   group_by(plant_species) %>%
   filter(n() > 15) %>%
   ungroup()
 
-# 2. Safe GAM function in case a species still causes errors
-safe_gam <- possibly(
-  ~ gam(yi ~ s(salinity_conductivity, k=3), data = ., weights = .$vi),
-  otherwise = NULL
-)
+newdata.df <- expand_grid(plant_species = unique(meta_data$plant_species),
+                          salinity_conductivity = seq(
+                            min(meta_data$salinity_conductivity),
+                            max(meta_data$salinity_conductivity), 
+                                by=0.1))
 
-#Fit models and generate predictions
-models <- species_to_keep %>%
+latitude.df <- meta_data %>%
   group_by(plant_species) %>%
-  nest() %>%
-  mutate(
-    model = map(data, safe_gam),
-    r2 = map_dbl(model, ~ if (!is.null(.x)) summary(.x)$r.sq else NA),
-    pred_grid = map2(data, model, ~ {
-      if (is.null(.y)) return(NULL)
-      newdata <- data.frame(salinity_conductivity = seq(min(.x$salinity_conductivity, na.rm = TRUE),
-                                                        max(.x$salinity_conductivity, na.rm = TRUE),
-                                                        length.out = 100))
-      newdata$yi_pred <- predict(.y, newdata = newdata)
-      newdata
-    })) %>%
-  filter(!map_lgl(model, is.null))  # Drop failed fits
+  summarize(lat=median(lat),
+            min_salinity=min(salinity_conductivity),
+            max_salinity=max(salinity_conductivity)) %>%
+  ungroup() %>%
+  mutate(season="fall")
 
+predictions.df <- left_join(newdata.df, latitude.df) %>%
+  mutate(yi_pred = predict(gam.model, .)) %>%
+  filter(between(salinity_conductivity, min_salinity, max_salinity))
 
-#Unnest prediction and observation data separately
-pred_data <- models %>%
-  select(plant_species, pred_grid, r2) %>%
-  unnest(pred_grid) %>%
-  mutate(label = paste0("R² = ", round(r2, 2)))
-
-models <- species_to_keep %>%
-  group_by(plant_species) %>%
-  nest() %>%
-  mutate(
-    model = map(data, safe_gam),
-    r2 = map_dbl(model, ~ if (!is.null(.x)) summary(.x)$r.sq else NA),
-    pval = map_dbl(model, ~ {
-      if (is.null(.x)) return(NA_real_)
-      s <- summary(.x)
-      # Example: get the p-value for the first smooth term
-      if (!is.null(s$s.table)) {
-        s$s.table[1, "p-value"]
-      } else if (!is.null(s$p.table)) {
-        s$p.table[1, "Pr(>|t|)"]
-      } else {
-        NA_real_
-      }
-    }),
-    pred_grid = map2(data, model, ~ {
-      if (is.null(.y)) return(NULL)
-      newdata <- data.frame(
-        salinity_conductivity = seq(min(.x$salinity_conductivity, na.rm = TRUE),
-                                    max(.x$salinity_conductivity, na.rm = TRUE),
-                                    length.out = 100)
-      )
-      newdata$yi_pred <- predict(.y, newdata = newdata)
-      newdata
-    })
-  ) %>%
-  filter(!map_lgl(model, is.null))
-
-# Example: unnesting predictions with R² and p-values
-pred_data <- models %>%
-  select(plant_species, pred_grid, r2, pval) %>%
-  unnest(pred_grid) %>%
-  mutate(label = paste0("R² = ", round(r2, 2), 
-                        ", p = ", signif(pval, 2)))
-
-obs_data <- models %>%
-  select(plant_species, data) %>%
-  unnest(data)
-
-# 5. Plot: raw points, GAM smooths, R² labels
 ggplot() +
-  geom_point(data = obs_data, aes(x = salinity_conductivity, y = sinh(yi), fill=plant_species, shape=plant_species), alpha = 0.5, size=2.5) +
-  geom_line(data = pred_data, aes(x = salinity_conductivity, y = sinh(yi_pred)), color = "#025766", size = 1) +
+  geom_point(data = meta_data, aes(x = salinity_conductivity, y = sinh(yi), fill=plant_species, shape=plant_species), alpha = 0.5, size=2.5) +
+  geom_line(data = predictions.df, aes(x = salinity_conductivity, y = sinh(yi_pred)), color = "black", size = 1) +
   scale_shape_manual(values = c("Cyperus malaccensis"=21, "Spartina alterniflora"=22,
                                 "Distichlis Spicata" = 8, "Spartina patens" = 24, 
                                 "Suaeda salsa" = 25, "Phragmites australis" = 23,
@@ -370,11 +292,6 @@ ggplot() +
   scale_y_continuous(transform = asinh_trans,
                      breaks=c(-1000,-100,-10,0,10,100,1000,10000))+
   geom_hline(yintercept=0, linetype="dashed", color="black")+
-  geom_text(
-    data = pred_data %>% group_by(plant_species) %>% slice(1),
-    aes(x = Inf, y = Inf, label = label),
-    hjust = 1.1, vjust = 1.2, inherit.aes = FALSE, size = 3,
-    family="Helvetica") +
   facet_wrap(~ plant_species) +
   theme_classic() +
   theme(
@@ -384,6 +301,7 @@ ggplot() +
     axis.title.x = element_text(size = 11, color = "black", family = "Arial"),
     axis.title.y = element_text(size = 1, color = "black", family = "Arial")) +
   labs(x = "Salinity", y =  expression(paste("CH"[4]*" flux (",mu,"mol m"^-2*" hr"^-1*")")))
-ggsave("figures/ch4_salinity_gam_facet.png",width=9,height=6)
+
+ggsave("figures/Figure_S5.png",width=9,height=6)
 
 

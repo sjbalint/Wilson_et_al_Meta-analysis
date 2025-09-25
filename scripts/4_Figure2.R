@@ -1,90 +1,99 @@
 # -------------------------------------------------------------------------
-#Created 1.13.25 by Emily Wilson, last update 08.20.25 by Emily Wilson
+#Created 1.13.25 by Emily Wilson
+#last update 09.25.25 by Sawyer Balint
 #Title: Plant Species Drive Global Coastal Wetland Methane Fluxes Meta-analysis
-
-#############################################################################
-#############################################################################
-#############################################################################
 #Figure 2
+
 rm(list=ls()) #clear the environment
-#dev.off()
-
-
 
 # install packages --------------------------------------------------------
 library(scales) #for stats
 library(tidyverse) #for data manipulation
 library(patchwork) #to put plots together
-library(mgcv) #for gam
 library(grid)
+library(ggtext)
+library(pheatmap)
+library(viridis)
 
-#meta_data<-readRDS("pw_data.RDS")
-meta_data<-read.csv("raw/ch4_soilsalinity_dataset.csv")
+source("functions/utilities.r")
 
-meta_data <- meta_data %>%
-  mutate(plant_species = recode_factor(plant_species,
-                                "Cladium jamaicense" = "C. jamaicense",
-                                "Juncus sp." = "Juncus sp.",
-                                "Plantago maritima" = "Pl. maritima",
-                                "Spartina patens" = "S. patens",
-                                "Spartina alterniflora" = "S. alterniflora",
-                                "Distichlis Spicata" = "D. spicata",
-                                "Phragmites australis" = "P. australis",
-                                "Cyperus malaccensis" = "C. malaccensis",
-                                "Scirpus mariqueter" = "S. mariqueter",
-                                "Suaeda salsa" = "S. salsa",
-                                "Tamarix chinensis" = "T. chinensis"))
+# import data ------------------------------------------------------------
 
-str(meta_data)
-meta_data <- meta_data %>% #clean up the data
+df <- read.csv("raw/ch4_soilsalinity_dataset.csv") %>%
+  mutate(
+    plant_species=as.factor(plant_species),
+    salinity=as.factor(salinity),
+    tide=as.factor(tide),
+    ch4_method_simple=as.factor(ch4_method_simple),
+    season=as.factor(season),
+    lat=abs(as.numeric(lat)))
+
+full.df <- read.csv("raw/ch4_full_dataset.csv")
+
+rf.model <- readRDS("Rdata/RandomForest.rds")
+gam1.model <- readRDS("Rdata/GAM_SoilSalinity.rds")
+gam2.model <- readRDS("Rdata/GAM_SalinityCategory.rds")
+
+# configure graphing ------------------------------------------------------
+
+theme <- list(
+  theme_classic(),
+  theme(
+    axis.text.x = element_text(size = 5, colour = "black", family = "Arial"), 
+    axis.text.y = element_text(size = 5, colour = "black", family = "Arial"),
+    axis.title.x = element_text(size = 7, color = "black", family = "Arial"),
+    axis.title.y = element_text(size = 7, color = "black", family = "Arial"))
+)
+
+# plot salinity and yi ----------------------------------------------------
+
+meta_data <- df%>% #clean up the data
   filter(!is.na(salinity_conductivity)) %>%  #only include fluxes with soil salinity
-  mutate(lat=abs(as.numeric(lat)), #make lat absolute for analysis
-         plant_species=as.factor(plant_species),
-         season=as.factor(season),
-         salinity_conductivity=as.numeric(salinity_conductivity),
-         ch4_method_simple=as.factor(ch4_method_simple),
-         tide=as.factor(tide))%>%
   filter(plant_species!="Juncae sp")
 
-
-
 # Plot salinity and yi -------------------------------------------------------
-#custom asinh transform for ggplot
-asinh_trans <- trans_new(
-  name = "asinh",
-  transform = asinh,
-  inverse = sinh
-)
 
 #Model Comparison -------------------------------------------------------
 
-meta_data$plant_species<-as.factor(meta_data$plant_species)
-
-gam_model6 <- gam(yi ~ plant_species+salinity, data = meta_data, weights = vi)
-summary(gam_model6) #R2=0.62
+summary(meta_data$season)
 
 #subset data to unique combinations of salinity and plant_species
+#the model uses latitude and season, so assign values for each
 new_data <- meta_data %>%
   group_by(salinity, plant_species) %>%
   summarise(
     yi = median(yi, na.rm = TRUE),
     n = n(),
-    .groups = "drop"
-  )
-new_data$predicted_plant_sal <- predict(gam_model6, newdata = new_data, type = "response", se.fit = FALSE)
+    lat=median(lat)
+  ) %>%
+  ungroup() %>%
+  mutate(season="fall")
+
+new_data$predicted_plant_sal <- predict(gam2.model, newdata = new_data, type = "response", se.fit = FALSE)
 
 plot_data <- data.frame(
   salinity = new_data$salinity,
   plant_species = new_data$plant_species,
   actual = new_data$yi,
-  predicted_plant_sal = new_data$predicted_plant_sal)
+  predicted_plant_sal = new_data$predicted_plant_sal) %>%
+  mutate(plant_species = recode_factor(plant_species,
+                                       "Cladium jamaicense" = "C. jamaicense",
+                                       "Juncus sp." = "Juncus sp.",
+                                       "Plantago maritima" = "Pl. maritima",
+                                       "Spartina patens" = "S. patens",
+                                       "Spartina alterniflora" = "S. alterniflora",
+                                       "Distichlis Spicata" = "D. spicata",
+                                       "Phragmites australis" = "P. australis",
+                                       "Cyperus malaccensis" = "C. malaccensis",
+                                       "Scirpus mariqueter" = "S. mariqueter",
+                                       "Suaeda salsa" = "S. salsa",
+                                       "Tamarix chinensis" = "T. chinensis"))
 
 plant_sal_r2 <- cor(plot_data$actual, plot_data$predicted_plant_sal)^2
 
-library(ggtext)
-
-p6<-ggplot(plot_data, aes(x = sinh(actual), y = sinh(predicted_plant_sal),
+p6 <- ggplot(plot_data, aes(x = sinh(actual), y = sinh(predicted_plant_sal),
                           fill = plant_species, shape=salinity)) +
+  theme+
   geom_point(size = 2, alpha = 0.8, stroke = 0.3) +
   geom_abline(slope = 1, intercept = 0, linewidth = 0.4, linetype = "dashed", color = "black")+
   annotate("text", x = -10, y = -15, label = "1:1 Line", hjust = 0, size = 2, family = "Arial") +
@@ -121,47 +130,24 @@ p6<-ggplot(plot_data, aes(x = sinh(actual), y = sinh(predicted_plant_sal),
        x = expression(paste("Actual Median CH"[4]*" flux (",mu,"mol m"^-2*" hr"^-1*")")), 
        y = expression(paste("Predicted CH"[4]*" flux (",mu,"mol m"^-2*" hr"^-1*")")), 
        family="Arial")+
-  theme_classic()+
   theme(legend.title = element_blank(),
           legend.key.height = unit(0.1, "lines"),  # height of each key; smaller = tighter rows
           legend.key.width = unit(0.1, "lines"),   # width of each key; smaller = more items per row
           legend.spacing.y = unit(0.1, "lines"),   # vertical spacing between rows
           legend.spacing.x = unit(0.1, "lines"),   # horizontal spacing between items
         legend.position="bottom",
-        legend.text = element_markdown(size = 5, family = "Arial"),
-        axis.text.x = element_text(size = 5, colour = "black", family = "Arial"), 
-        axis.text.y = element_text(size = 5, colour = "black", family = "Arial"),
-        axis.title.x = element_text(size = 7, color = "black", family = "Arial"),
-        axis.title.y = element_text(size = 7, color = "black", family = "Arial"))
+        legend.text = element_markdown(size = 5, family = "Arial"))
+
 p6
-ggsave("figures/model_plants_lat.png",width=8,height=6)
 
 
+# model comparison --------------------------------------------------------
 
-#Model Comparison
-#meta_data<-readRDS("pw_data.RDS")
-meta_data<-read.csv("raw/ch4_soilsalinity_dataset.csv")
+meta_data <- df
 
-meta_data <- meta_data %>%
-  mutate(plant_species = recode_factor(plant_species,
-                                       "Cladium jamaicense" = "C. jamaicense",
-                                       "Juncus sp." = "Juncus sp.",
-                                       "Plantago maritima" = "Pl. maritima",
-                                       "Spartina patens" = "S. patens",
-                                       "Spartina alterniflora" = "S. alterniflora",
-                                       "Distichlis Spicata" = "D. spicata",
-                                       "Phragmites australis" = "P. australis",
-                                       "Cyperus malaccensis" = "C. malaccensis",
-                                       "Scirpus mariqueter" = "S. mariqueter",
-                                       "Suaeda salsa" = "S. salsa",
-                                       "Tamarix chinensis" = "T. chinensis"))
-meta_data$plant_species<-as.factor(meta_data$plant_species)
 meta_data<-meta_data %>%
   filter(!is.na(salinity_conductivity),
          season!="winter")
-gam_model4 <- gam(yi ~ plant_species+s(lat)+season+s(salinity_conductivity), data = meta_data, weights = vi)
-summary(gam_model4) #R2=0.69
-
 
 #subset your data to unique combinations of salinity and plant_species
 new_data <- meta_data %>%
@@ -173,7 +159,8 @@ new_data <- meta_data %>%
     n = n(),
     .groups = "drop"
   )
-new_data$predicted_plant_lat <- predict(gam_model4, newdata = new_data, type = "response", se.fit = FALSE)
+
+new_data$predicted_plant_lat <- predict(gam1.model, newdata = new_data, type = "response", se.fit = FALSE)
 
 sal_pw<-new_data$salinity_conductivity
 
@@ -194,8 +181,21 @@ plot_data <- data.frame(
   plant_species = new_data$plant_species,
   actual = new_data$yi,
   poffenbarger = asinh(predicted_sal_pw),
-  predicted_plant_lat = new_data$predicted_plant_lat)
+  predicted_plant_lat = new_data$predicted_plant_lat) %>%
+  mutate(plant_species = recode_factor(plant_species,
+                                       "Cladium jamaicense" = "C. jamaicense",
+                                       "Juncus sp." = "Juncus sp.",
+                                       "Plantago maritima" = "Pl. maritima",
+                                       "Spartina patens" = "S. patens",
+                                       "Spartina alterniflora" = "S. alterniflora",
+                                       "Distichlis Spicata" = "D. spicata",
+                                       "Phragmites australis" = "P. australis",
+                                       "Cyperus malaccensis" = "C. malaccensis",
+                                       "Scirpus mariqueter" = "S. mariqueter",
+                                       "Suaeda salsa" = "S. salsa",
+                                       "Tamarix chinensis" = "T. chinensis"))
 
+#get R2 values
 poffenbarger_r2 <- cor(plot_data$actual, plot_data$poffenbarger)^2
 plant_lat_r2 <- cor(plot_data$actual, plot_data$predicted_plant_lat)^2
 
@@ -203,6 +203,7 @@ plant_lat_r2 <- cor(plot_data$actual, plot_data$predicted_plant_lat)^2
 # Plot
 p2<-ggplot(plot_data, aes(x = sinh(actual), y = sinh(poffenbarger),
                           fill = plant_species, shape=salinity)) +
+  theme+
   geom_point(size = 2, alpha = 0.8, stroke = 0.3) +
   geom_abline(slope = 1, intercept = 0, linetype = "dashed", color = "black")+
   annotate("text", x = -10, y = -15, label = "1:1 Line", hjust = 0, size = 2, family = "Arial") +
@@ -228,26 +229,17 @@ p2<-ggplot(plot_data, aes(x = sinh(actual), y = sinh(poffenbarger),
                                "Salicornia sp."="black", "Suaeda sp." = "black",
                                "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
                                "S. angelica"="#D62728")) +
-  theme(legend.position="none")+
   guides(fill = "none", shape = "none", color="none")+
   labs(
     x = expression(paste("Actual CH"[4]*" flux (",mu,"mol m"^-2*" hr"^-1*")")), 
     y = expression(paste("Predicted CH"[4]*" flux (",mu,"mol m"^-2*" hr"^-1*")")), 
-    family="Arial")+
-  theme_classic()+
-  theme(
-    axis.text.x = element_text(size = 5, colour = "black", family = "Arial"), 
-    axis.text.y = element_text(size = 5, colour = "black", family = "Arial"),
-    axis.title.x = element_text(size = 7, color = "black", family = "Arial"),
-    axis.title.y = element_text(size = 7, color = "black", family = "Arial"))
+    family="Arial")
 
 p2
-ggsave("figures/poff_actual.png",width=8,height=6)
-
-
 
 p8 <-ggplot(plot_data, aes(x = sinh(actual), y = sinh(predicted_plant_lat),
                            fill = plant_species, shape=salinity)) +
+  theme+
   geom_point(size = 2, alpha = 0.8, stroke = 0.3) +
   geom_abline(slope = 1, intercept = 0, linetype = "dashed", color = "black")+
   annotate("text", x = -10, y = -15, label = "1:1 Line", hjust = 0, size = 2, family = "Arial") +
@@ -272,64 +264,18 @@ p8 <-ggplot(plot_data, aes(x = sinh(actual), y = sinh(predicted_plant_lat),
                                "Salicornia sp."="black", "Suaeda sp." = "black",
                                "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
                                "S. angelica"="#D62728")) +
-  theme(legend.position="none")+
   guides(fill = "none", shape = "none", color="none")+
   labs(x = expression(paste("Actual CH"[4]*" flux (",mu,"mol m"^-2*" hr"^-1*")")), 
        y = expression(paste("Predicted CH"[4]*" flux (",mu,"mol m"^-2*" hr"^-1*")")), 
-       family="Arial")+
-  theme_classic()+
-  theme(
-    axis.text.x.top = element_text(size = 7, family = "Arial"),
-    axis.title.x.top = element_text(size = 7, family = "Arial"),
-    axis.text.x = element_text(size = 5, colour = "black", family = "Arial"), 
-    axis.text.y = element_text(size = 5, colour = "black", family = "Arial"),
-    axis.title.x = element_text(size = 7, color = "black", family = "Arial"),
-    axis.title.y = element_text(size = 7, color = "black", family = "Arial"))
+       family="Arial")
 
 p8
-ggsave("figures/model_plants_lat_season_sal.png",width=8,height=6)
 
-
-library(patchwork)
-library(tidyverse) #for data manipulation
-library(randomForestSRC) #parallel random forest
-library(scales) #for transformation function
-# RANDOM FOREST
-# With PW conductivity ----------------------------------------------------
-#meta_data <- readRDS("pw_data.RDS") #get data
-meta_data<-read.csv("raw/ch4_soilsalinity_dataset.csv")
-
-# Prepare final meta_data -------------------------------------------------------
-meta_data <- meta_data %>%
-  select(yi, lat, plant_species, season, salinity, salinity_conductivity, ch4_method_simple, tide)
-
-meta_data<-data.frame(meta_data)
-meta_data<-meta_data%>%
-  mutate(
-    plant_species=as.factor(plant_species),
-    salinity=as.factor(salinity),
-    tide=as.factor(tide),
-    ch4_method_simple=as.factor(ch4_method_simple),
-    season=as.factor(season),
-    lat=abs(as.numeric(lat)))
-str(meta_data)
-#tune(yi~., data=meta_data, trace=TRUE)
-set.seed(39) #42
-model <- rfsrc(yi~.,
-               ntree=5000, 
-               data=meta_data, 
-               nodesize = 12, #lowest error, highest r2
-               mtry=5, #suggest by tune
-               case.wt = meta_data$vi,
-               forest=TRUE,
-               importance = TRUE)
-#looks good
-plot(model)
-print(model)
+# random forest -----------------------------------------------------------
 
 var_imp <- data.frame(
-  Variable = names(model$importance),
-  Importance = model$importance)
+  Variable = names(rf.model$importance),
+  Importance = rf.model$importance)
 
 var_imp <- var_imp %>%
   mutate(Variable = case_when(
@@ -345,39 +291,23 @@ var_imp <- var_imp %>%
   ))
 # Arrange from highest to lowest importance
 var_imp <- var_imp %>%
-  arrange(desc(Importance))
+  arrange(desc(Importance)) %>%
+  mutate(Variable=str_replace(Variable, " ","\n"))
 
 # Plot using ggplot2
-RF<-ggplot(var_imp, aes(x = reorder(Variable, Importance), y = Importance)) +
+RF <- ggplot(var_imp, aes(x = reorder(Variable, Importance), y = Importance)) +
+  theme+
   geom_col(fill = "darkgreen", color="black", linewidth=0.3) +
   coord_flip() +
-  theme_classic()+
   labs(
     x = "Variable",
-    y = "Importance")+ 
-  theme(
-    axis.text.x = element_text(size = 5, colour = "black", angle = 20, hjust = 0.9, family = "Arial"), 
-    axis.text.y = element_text(size = 5, colour = "black", family = "Arial"),
-    axis.title.x = element_text(size = 7, color = "black", family = "Arial"),
-    axis.title.y = element_text(size = 7, color = "black", family = "Arial"))
+    y = "Importance")
+
 RF
-ggsave("figures/CH4_forest_soil.png",width=6,height=5)
 
+# heat map ----------------------------------------------------------------
 
-
-
-#HEAT MAP
-# Get the GHG flux data ---------------------------------------------------
-#call up the dataset
-# Load libraries
-library(tidyverse)
-library(pheatmap)
-library(viridis)
-
-#meta_data<-readRDS("full_data.RDS")
-meta_data<-read.csv("raw/ch4_full_dataset.csv")
-
-meta_data <- meta_data %>%
+meta_data <- full.df %>%
   group_by(plant_species) %>%
   filter(n_distinct(p_num) > 1) %>%
   ungroup()
@@ -428,6 +358,7 @@ species_matrix <- species_matrix[levels(meta_data$salinity_category), ]
 
 #impute row means for clustering, bc they cannot be blank
 species_matrix_imputed <- species_matrix
+
 for (i in 1:nrow(species_matrix_imputed)) {
   row_mean <- mean(species_matrix_imputed[i, ], na.rm = TRUE)
   species_matrix_imputed[i, is.na(species_matrix_imputed[i, ])] <- row_mean
@@ -443,12 +374,6 @@ species_matrix <- species_matrix[, species_order]
 
 rownames(species_matrix) <- as.character(rownames(species_matrix))
 
-asinh_trans <- trans_new( #function for plotting, made by Sawyer Balint
-  name = "asinh",
-  transform = asinh,
-  inverse = sinh
-)
-
 color_breaks <- seq(min(species_matrix, na.rm=TRUE),
                     max(species_matrix, na.rm=TRUE),
                     length.out = 100)
@@ -456,8 +381,7 @@ color_breaks <- seq(min(species_matrix, na.rm=TRUE),
 legend_labels <- round(sinh(color_breaks), 0)
 pretty_vals <- c(-10, 0, 10, 100, 1000)
 legend_breaks <- asinh(pretty_vals)
-library(pheatmap)
-library(viridis)
+
 
 map<-pheatmap(
   species_matrix,
@@ -483,6 +407,8 @@ map$gtable$grobs[[which(map$gtable$layout$name == "col_names")]]$gp <- gpar(font
 map_wrapped <- wrap_elements(map$gtable)
 map_wrapped
 
+# combine plots -----------------------------------------------------------
+
 combined_plot <- (RF + p8 + p2 + plot_layout(widths = c(1,1.5,1.5))) / (p6 + map_wrapped + plot_layout(widths = c(1.6,2.4))) +
   plot_layout(guides = "collect") +
   plot_annotation(
@@ -497,5 +423,5 @@ combined_plot <- (RF + p8 + p2 + plot_layout(widths = c(1,1.5,1.5))) / (p6 + map
 
 combined_plot
 
-ggsave("figures/plot_test.png", combined_plot, width = 200, height = 175, dpi=300, units ="mm")
+ggsave("figures/figure2.png", combined_plot, width = 200, height = 175, dpi=300, units ="mm")
 

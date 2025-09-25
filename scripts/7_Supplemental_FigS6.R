@@ -153,11 +153,6 @@ p1<- ggplot(plot_data, aes(x = yi, y = reorder(slab_label, yi), color=plant_spec
     axis.text.y = element_text(size = 11)
   )
 p1
-ggsave("figures/meta_forest_plants_ch4_spal.png", width = 8, height = 6)
-
-
-
-
 
 # by salinity -------------------------------------------------------------
 data_ch4 <- data_ch4 %>%
@@ -200,8 +195,6 @@ ch4_meta_data <- data_ch4 %>%
     # Add other columns as needed here...
   )
 
-
-library(dplyr)
 meta_data <- ch4_meta_data %>%
   dplyr::select(ch4_flux, ch4_var, ch4_n, p_num, sampling_year, lat, month, ch4_method_simple, season, plant_species, salinity, tide)
 
@@ -310,9 +303,6 @@ p2 <- ggplot(plot_data, aes(x = yi, y = slab_label, color=salinity)) +
         axis.text.y = element_text(size = 11)
   )
 p2
-ggsave("figures/meta_forest_salinity_ch4_spal.png", width = 8, height = 6)
-
-
 
 # Phragmites --------------------------------------------------------------
 data_ch4 <- ghgflux %>% #clean up the data
@@ -458,7 +448,6 @@ p3<- ggplot(plot_data, aes(x = yi, y = reorder(slab_label, yi), color=plant_spec
                 panel.background = element_rect(fill = "transparent", colour = NA),
                 legend.background = element_rect(fill = "transparent", colour = NA))
 p3
-ggsave("figures/meta_forest_plants_ch4_phrag.png", width = 8, height = 6)
 
 
 # by salinity -------------------------------------------------------------
@@ -617,8 +606,8 @@ p4 <- ggplot(plot_data, aes(x = yi, y = slab_label, color=salinity)) +
         panel.grid.major.y = element_blank(),
         axis.text.y = element_text(size = 11)
   )
+
 p4
-ggsave("figures/meta_forest_salinity_ch4_phrag.png", width = 8, height = 6)
 
 
 library(patchwork)
@@ -632,5 +621,5 @@ combined_plot <- wrap_plots(p1 + p2+ p3+p4) +
   )
 combined_plot
 
-ggsave("figures/ch4_salinity_plants_smd.png",width=12,height=8)
+ggsave("figures/Figure_S6.png",width=12,height=8)
 

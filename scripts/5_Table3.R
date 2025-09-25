@@ -9,6 +9,10 @@ library(mgcv) #for gam
 library(tidyverse) #for data manipulation
 library(scales) #for trans_new
 
+source("functions/utilities.r")
+
+# import data -------------------------------------------------------------
+
 #data_ch4<-readRDS("full_data.RDS") #Full aggregated dataset (n=1031)
 data_ch4<-read.csv("raw/ch4_full_dataset.csv")
 
@@ -21,13 +25,6 @@ ggplot(data_ch4, aes(x=yi)) +
   theme_minimal() #looks normal
 shapiro.test(data_ch4$yi)  #normal
 qqnorm(data_ch4$yi);qqline(data_ch4$yi, col = 2) #normal
-
-#custom asinh transform for ggplot created by Sawyer Balint
-asinh_trans <- trans_new(
-  name = "asinh",
-  transform = asinh,
-  inverse = sinh
-)
 
 # Poffenbarger et al. (2011) and VCS predicitions Emmer et al. (2023)---------------------------------------
 #For soil >18 GHG=0.011 t CH4 ha-1 yr-1 x GWP

@@ -1,0 +1,40 @@
+---
+title: "Global Importance of Nitrogen Fixation Across Inland and Coastal Waters"
+
+author: "Emily Wilson, Sawyer Balint, Robinson W. Fulweiler"
+date:
+output: github_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+<center><h2>Directory Structure</h2></center>
+
+<h3>/figures</h3> .pdf figures exported from `scripts/`
+
+<h3>/functions</h3> Intermediate functions used in scaling and graphing
+
+  * **`graphing_functions.R`**: functions used in `scripts/`
+  
+<h3>/output</h3> .csv files of N-fixation rates and statistical results
+
+  * **`annual_medians`**: description
+  * **`seasonal_medians`**: description
+
+<h3>/raw</h3> Input files used by the scripts
+
+  * **`ch4_full_dataset.csv`**: description
+  * **`ch4_soilsalinity_dataset.csv`**: description
+  * **`GHGPlantMeta_metadata.xlsx`**: description
+  * **`SMD_data`**: description
+  
+<h3>/scripts</h3> R scripts that convert units, perform global scaling, and produce figures
+
+  * **`1_RF_CH4_TabS2.R`**: Random Forest Models for Table S2 and Figure 2
+  * **`2_GAM_CH4_Tab3.R`**: Generalized additive model for soil salinity data (GAM), Tab S3 and Fig 2
+  * **`3_Figure1_TabS1.R`**: description
