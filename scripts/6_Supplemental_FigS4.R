@@ -86,10 +86,10 @@ p1<-ggplot(meta_data, aes(x = salinity_conductivity)) +
   scale_fill_manual(values = c("Cyperus malaccensis"="#025766", "Spartina patens" = "#5c3972", 
                                "Spartina alterniflora" = "#2FC45D", "Phragmites australis" ="#20bcff",
                                "Distichlis Spicata" = "#47724c", "Suaeda salsa" = "#c6b822",
-                               "Cladium jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
+                               "Cladium jamaicense" =  "#564e95", "Juncus sp." = "#86a291",
                                "Sesuvium portulacastrum" = "#90E669", "Plantago maritima" = "#30BCAD",
-                               "Scirpus mariqueter" = "#60563f", "Tamarix chinensis"="#FF46A2",
-                               "Salicornia sp."="black", "Suaeda sp." = "black")) +
+                               "Scirpus mariqueter" = "#60563f", "Tamarix chinensis"="#8B5F65",
+                               "Salicornia sp."="#CD8162", "Suaeda sp." = "black")) +
   theme(legend.position="right")+
   theme(legend.title=element_blank())+
   annotate("text", x = 31, y = 2200,  # Adjust x and y based on your plot range
@@ -209,8 +209,8 @@ p2<-ggplot(meta_data, aes(x = salinity_conductivity)) +
                                "Distichlis Spicata" = "#47724c", "Suaeda salsa" = "#c6b822",
                                "Cladium jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
                                "Sesuvium portulacastrum" = "#90E669", "Plantago maritima" = "#30BCAD",
-                               "Scirpus mariqueter" = "#60563f", "Tamarix chinensis"="#FF46A2",
-                               "Salicornia sp."="black", "Suaeda sp." = "black")) +
+                               "Scirpus mariqueter" = "#60563f", "Tamarix chinensis"="#8B5F65",
+                               "Salicornia sp."="#CD8162", "Suaeda sp." = "black")) +
   theme(legend.position="none")+
   annotate("text", x = 31, y = 2200,  # Adjust x and y based on your plot range
            label = expression(paste(". _ . _ Salinity-Based Proxy Equation Line")),

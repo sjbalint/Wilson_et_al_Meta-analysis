@@ -104,26 +104,34 @@ p6 <- ggplot(plot_data, aes(x = sinh(actual), y = sinh(predicted_plant_sal),
     trans = asinh_trans,
     limits=c(-100,8000),
     breaks = c(-100, -10, 0, 10, 100, 1000))+
-  annotate("text", x = 900, y = 5000,  # Adjust x and y based on your plot range
+  annotate("text", x = 1000, y = 5000,  # Adjust x and y based on your plot range
            label =paste0("Plant Species by Salinity Category Model \n Predicted Fluxes ~ Actual Median Fluxes, R² = ", round(plant_sal_r2, 2)),
            size = 2, hjust = 1, color = "black", family = "Arial")+
   scale_shape_manual(values = c("oligohaline"=21, "mesohaline" = 24, "polyhaline"=22,
                                 "euhaline" = 23))+
-  scale_fill_manual(values = c("C. malaccensis"="#025766", "S. patens" = "#5c3972", 
-                               "S. alterniflora" = "#2FC45D", "P. australis" ="#20bcff",
-                               "D. spicata" = "#47724c", "S. salsa" = "#c6b822",
-                               "C. jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
-                               "S. portulacastrum" = "#90E669", "Pl. maritima" = "#30BCAD",
-                               "S. mariqueter" = "#60563f", "T. chinensis"="#FF46A2",
-                               "Salicornia sp."="black", "Suaeda sp." = "black",
-                               "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
-                               "S. angelica"="#D62728"),
-                    labels = c("<i>C. malaccensis</i>", "<i>S. patens</i>", "<i>S. alterniflora</i>", "<i>P. australis</i>",
-                               "<i>D. spicata</i>", "<i>S. salsa</i>", "<i>C. jamaicense</i>", "<i>Juncus sp.</i>", "<i>Juncae sp</i>",
-                               "<i>S. portulacastrum</i>", "<i>Pl. maritima</i>", "<i>S. mariqueter</i>", "<i>T. chinensis</i>",
-                               "<i>Salicornia sp.</i>", "<i>Suaeda sp.</i>", "<i>Carex. sp.</i>", "<i>S. americanus</i>", "<i>S. angelica</i>")) +
+  scale_fill_manual(
+    values = c(
+      "C. malaccensis"  = "#025766",
+      "S. patens"       = "#5c3972",
+      "S. alterniflora" = "#2FC45D",
+      "P. australis"    = "#20bcff",
+      "D. spicata"      = "#47724c",
+      "S. salsa"        = "#c6b822",
+      "C. jamaicense"   = "#564e95",
+      "Juncus sp."      = "#86a291",
+      "Pl. maritima"    = "#30BCAD",
+      "S. mariqueter"   = "#60563f",
+      "T. chinensis"    = "#8B5F65",
+      "Salicornia sp."  = "#CD8162",
+      "Suaeda sp."      = "black"),
+    labels = c(
+      "<i>C. malaccensis</i>", "<i>S. patens</i>", "<i>S. alterniflora</i>", "<i>P. australis</i>",
+      "<i>D. spicata</i>", "<i>S. salsa</i>", "<i>C. jamaicense</i>", "<i>Juncus sp.</i>",
+      "<i>Pl. maritima</i>", "<i>S. mariqueter</i>", "<i>T. chinensis</i>",
+      "<i>Salicornia sp.</i>", "<i>Suaeda sp.</i>"
+    ))+
   guides(
-    fill = guide_legend(ncol = 5, override.aes = list(shape = 21, face = "italics")),   # force filled legend
+    fill = guide_legend(ncol = 5, override.aes = list(shape = 21, face = "italics")),
     shape = guide_legend(ncol = 2, override.aes = list(fill = "grey80")) # keep shape legend clear
   )+
   labs(fill="Plant Species", shape = "Salinity Category",
@@ -208,27 +216,33 @@ p2<-ggplot(plot_data, aes(x = sinh(actual), y = sinh(poffenbarger),
   geom_abline(slope = 1, intercept = 0, linetype = "dashed", color = "black")+
   annotate("text", x = -10, y = -15, label = "1:1 Line", hjust = 0, size = 2, family = "Arial") +
   scale_x_continuous(transform = asinh_trans,
-                     limits=c(-1000,8000),
+                     limits=c(-100,10000),
                      breaks=c(-100,-100,-10, 0, 10,100, 1000))+
   scale_y_continuous(
     trans = asinh_trans,
-    limits=c(-1000,8000),
+    limits=c(-100,10000),
     breaks = c(-100, -100, -10, 0, 10, 100, 1000)
   )+
-  annotate("text", x = 900, y = 5000,  # Adjust x and y based on your plot range
-           label =paste0("Salinity-Based Proxy Equation \n Predicted Fluxes ~ Actual Fluxes, R² = ", round(poffenbarger_r2, 2)),
+  annotate("text", x = 1300, y = 5000,
+           label =paste0("Salinity-Based Proxy Predicted \n Fluxes ~ Actual Fluxes, R² = ", round(poffenbarger_r2, 2)),
            size = 2, hjust = 1, color = "darkred", family = "Arial")+
   scale_shape_manual(values = c("oligohaline"=21, "mesohaline" = 24, "polyhaline"=22,
                                 "euhaline" = 23))+
-  scale_fill_manual(values = c("C. malaccensis"="#025766", "S. patens" = "#5c3972", 
-                               "S. alterniflora" = "#2FC45D", "P. australis" ="#20bcff",
-                               "D. spicata" = "#47724c", "S. salsa" = "#c6b822",
-                               "C. jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
-                               "S. portulacastrum" = "#90E669", "Pl. maritima" = "#30BCAD",
-                               "S. mariqueter" = "#60563f", "T. chinensis"="#FF46A2",
-                               "Salicornia sp."="black", "Suaeda sp." = "black",
-                               "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
-                               "S. angelica"="#D62728")) +
+  scale_fill_manual(
+    values = c(
+      "C. malaccensis"  = "#025766",
+      "S. patens"       = "#5c3972",
+      "S. alterniflora" = "#2FC45D",
+      "P. australis"    = "#20bcff",
+      "D. spicata"      = "#47724c",
+      "S. salsa"        = "#c6b822",
+      "C. jamaicense"   = "#564e95",
+      "Juncus sp."      = "#86a291",
+      "Pl. maritima"    = "#30BCAD",
+      "S. mariqueter"   = "#60563f",
+      "T. chinensis"    = "#8B5F65",
+      "Salicornia sp."  = "#CD8162",
+      "Suaeda sp."      = "black"))+
   guides(fill = "none", shape = "none", color="none")+
   labs(
     x = expression(paste("Actual CH"[4]*" flux (",mu,"mol m"^-2*" hr"^-1*")")), 
@@ -250,26 +264,30 @@ p8 <-ggplot(plot_data, aes(x = sinh(actual), y = sinh(predicted_plant_lat),
     trans = asinh_trans,
     limits=c(-100,10000),
     breaks = c(-100, -10, 0, 10, 100, 1000))+
-  annotate("text", x = 900, y = 5000,  # Adjust x and y based on your plot range
-           label =paste0("This Study's Full Model \n Predicted Fluxes ~ Actual Fluxes, R² = ", round(plant_lat_r2, 2)),
+  annotate("text", x = 1000, y = 5000,  # Adjust x and y based on your plot range
+           label =paste0("This Study's Full Model Predicted \n Fluxes ~ Actual Fluxes, R² = ", round(plant_lat_r2, 2)),
            size = 2, hjust = 1, color = "black", family = "Arial")+
   scale_shape_manual(values = c("oligohaline"=21, "mesohaline" = 24, "polyhaline"=22,
                                 "euhaline" = 23))+
-  scale_fill_manual(values = c("C. malaccensis"="#025766", "S. patens" = "#5c3972", 
-                               "S. alterniflora" = "#2FC45D", "P. australis" ="#20bcff",
-                               "D. spicata" = "#47724c", "S. salsa" = "#c6b822",
-                               "C. jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
-                               "S. portulacastrum" = "#90E669", "Pl. maritima" = "#30BCAD",
-                               "S. mariqueter" = "#60563f", "T. chinensis"="#FF46A2",
-                               "Salicornia sp."="black", "Suaeda sp." = "black",
-                               "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
-                               "S. angelica"="#D62728")) +
+  scale_fill_manual(
+    values = c(
+      "C. malaccensis"  = "#025766",
+      "S. patens"       = "#5c3972",
+      "S. alterniflora" = "#2FC45D",
+      "P. australis"    = "#20bcff",
+      "D. spicata"      = "#47724c",
+      "S. salsa"        = "#c6b822",
+      "C. jamaicense"   = "#564e95",
+      "Juncus sp."      = "#86a291",
+      "Pl. maritima"    = "#30BCAD",
+      "S. mariqueter"   = "#60563f",
+      "T. chinensis"    = "#8B5F65",
+      "Salicornia sp."  = "#CD8162",
+      "Suaeda sp."      = "black")) +
   guides(fill = "none", shape = "none", color="none")+
   labs(x = expression(paste("Actual CH"[4]*" flux (",mu,"mol m"^-2*" hr"^-1*")")), 
        y = expression(paste("Predicted CH"[4]*" flux (",mu,"mol m"^-2*" hr"^-1*")")), 
        family="Arial")
-
-p8
 
 # random forest -----------------------------------------------------------
 
@@ -301,18 +319,15 @@ RF <- ggplot(var_imp, aes(x = reorder(Variable, Importance), y = Importance)) +
   coord_flip() +
   labs(
     x = "Variable",
-    y = "Importance")
-
-RF
+    y = "Importance")+
+  theme(axis.text.y = element_text(size = 6, colour = "black", family = "Arial"))
 
 # heat map ----------------------------------------------------------------
 
-meta_data <- full.df %>%
+plot.df <- full.df %>%
   group_by(plant_species) %>%
   filter(n_distinct(p_num) > 1) %>%
-  ungroup()
-
-meta_data <- meta_data %>%
+  ungroup() %>%
   mutate(plant_species = recode_factor(plant_species,
                                 "Aeluropus littoralis" = "A. littoralis",
                                 "Carex sp." = "Carex sp.",
@@ -334,82 +349,66 @@ meta_data <- meta_data %>%
                                 "Scirpus mariqueter" = "S. mariqueter",
                                 "Suaeda salsa" = "S. salsa",
                                 "Tamarix chinensis" = "T. chinensis"
-  ))
-
-meta_data <- meta_data %>%
+  )) %>%
   mutate(salinity_category = factor(salinity,
-                                    levels = c("oligohaline", "mesohaline", "polyhaline", "euhaline")))
+                                    levels = rev(c("oligohaline", "mesohaline", "polyhaline", "euhaline"))))
 
 #average yi for each species and salinity category
-species_salinity_avg <- meta_data %>%
+plot.df <- plot.df %>%
   group_by(plant_species, salinity_category) %>%
   summarise(median_yi = median(yi, na.rm = TRUE), .groups = "drop")
 
-species_matrix <- species_salinity_avg %>%
-  pivot_wider(
-    names_from = plant_species,
-    values_from = median_yi  # NAs remain
-  ) %>%
-  column_to_rownames("salinity_category") %>%
-  as.matrix()
+species_order <- plot.df %>%
+  group_by(plant_species) %>%
+  summarize(yi = mean(median_yi, na.rm=TRUE)) %>%
+  arrange(yi) %>%
+  pull(plant_species)
 
-#reorder rows based on salinity
-species_matrix <- species_matrix[levels(meta_data$salinity_category), ]
+plot.df <- plot.df %>%
+  mutate(plant_species=factor(plant_species, levels=rev(species_order)))%>%
+  mutate(ch4_flux = sinh(median_yi)) %>%
+  complete(plant_species, salinity_category)
 
-#impute row means for clustering, bc they cannot be blank
-species_matrix_imputed <- species_matrix
+map <- ggplot(plot.df, aes(plant_species, salinity_category, fill=ch4_flux))+
+  theme_bw()+
+  geom_tile(color="black")+
+  scale_fill_viridis(na.value="white", 
+                     trans = asinh_trans,
+                     limits=c(-10,NA),
+                     breaks = c(-10, 0, 10, 100, 1000, 10000),
+                     name=expression(paste("CH"[4]*" flux (",mu,"mol m"^-2*" hr"^-1*")")))+
+  guides(fill = guide_colourbar(
+    barwidth=0.5,
+    harheight=10,
+    title.position="right",
+    theme = theme(
+      legend.ticks = element_blank(),
+      text = element_text(size=7),
+      title = element_text(angle = 90, vjust=0.5, size=7, margin = margin(r = 0, l = 0, t = 0, b = 0)),
+    )
+  ))+
+  scale_x_discrete(expand=c(0,0))+
+  scale_y_discrete(expand=c(0,0))+
+  labs(x=NULL, y=NULL)+
+  theme(axis.ticks = element_blank(),
+        plot.margin = margin(0, 0, 0, 0, unit = "pt"),
+        legend.box.margin = margin(0, 0, 0, 0, unit = "pt"),
+        legend.margin = margin(0, 0, 0, 0, unit = "pt"),
+        legend.spacing = unit(0, "pt"),
+        legend.box.spacing = unit(5, "pt"),
+        axis.text.x = element_text(size = 7, colour = "black", face="italic", angle = 45, hjust = 1, family = "Arial"),
+        axis.text.y = element_text(size = 7, colour = "black", family = "Arial"),
+        axis.title.x = element_text(size = 7, color = "black", family = "Arial"),
+        axis.title.y = element_text(size = 7, color = "black", family = "Arial")
+  )
 
-for (i in 1:nrow(species_matrix_imputed)) {
-  row_mean <- mean(species_matrix_imputed[i, ], na.rm = TRUE)
-  species_matrix_imputed[i, is.na(species_matrix_imputed[i, ])] <- row_mean
-}
-
-#euclidean distance and clustering on species
-dist_mat <- dist(t(species_matrix_imputed), method = "euclidean")  # transpose to cluster columns
-clust <- hclust(dist_mat, method = "complete")
-
-#sort columns by overall flux
-species_order <- order(colMeans(species_matrix, na.rm = TRUE), decreasing = TRUE)
-species_matrix <- species_matrix[, species_order]
-
-rownames(species_matrix) <- as.character(rownames(species_matrix))
-
-color_breaks <- seq(min(species_matrix, na.rm=TRUE),
-                    max(species_matrix, na.rm=TRUE),
-                    length.out = 100)
-
-legend_labels <- round(sinh(color_breaks), 0)
-pretty_vals <- c(-10, 0, 10, 100, 1000)
-legend_breaks <- asinh(pretty_vals)
-
-
-map<-pheatmap(
-  species_matrix,
-  cluster_rows = FALSE,
-  cluster_cols = FALSE,
-  color = viridis(99),
-  breaks = seq(min(species_matrix, na.rm=TRUE),
-               max(species_matrix, na.rm=TRUE),
-               length.out = 100),
-  legend_breaks = legend_breaks,   # transformed positions
-  legend_labels = pretty_vals,     # raw values to display
-  fontsize_row = 6,
-  fontsize_col = 6,
-  angle_col = 45,
-  na_col = "white",
-  border_color = "black",
-  fontsize = 6,
-  silent = TRUE
-)
-
-map$gtable$grobs[[which(map$gtable$layout$name == "col_names")]]$gp <- gpar(fontface = "italic")
 #wrap the gtable directly for patchwork
-map_wrapped <- wrap_elements(map$gtable)
-map_wrapped
+map_wrapped <- wrap_elements(map)
+
 
 # combine plots -----------------------------------------------------------
 
-combined_plot <- (RF + p8 + p2 + plot_layout(widths = c(1,1.5,1.5))) / (p6 + map_wrapped + plot_layout(widths = c(1.6,2.4))) +
+combined_plot <- (RF + p8 + p2 + plot_layout(widths = c(1.0,1.5,1.5))) / (p6 + map_wrapped + plot_layout(widths = c(1.6,2.4))) +
   plot_layout(guides = "collect") +
   plot_annotation(
     tag_levels = 'a', 
@@ -417,11 +416,11 @@ combined_plot <- (RF + p8 + p2 + plot_layout(widths = c(1,1.5,1.5))) / (p6 + map
   ) &
   theme(
     legend.text = element_markdown(size = 7), 
-    plot.tag = element_text(family = "Arial Black", size = 12.5),
+    plot.tag = element_text(family = "Arial Black", size = 12),
     legend.position = "bottom"           # place at bottom
     )
 
 combined_plot
 
-ggsave("figures/figure2.png", combined_plot, width = 200, height = 175, dpi=300, units ="mm")
+ggsave("figures/figure2.png", combined_plot, width = 180, height = 175, dpi=300, units ="mm")
 

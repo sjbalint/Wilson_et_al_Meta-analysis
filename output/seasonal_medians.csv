@@ -1,4 +1,4 @@
-"","plant_species","salinity","season","n","seasonal_median_yi","seasonal_q1","seasonal_q3"
+"","plant_species","salinity","season","n","yi_median","yi_q1","yi_q3"
 "1","Cyperus malaccensis","mesohaline","fall",45,4.58277497213025,4.38174397502382,4.91274134183679
 "2","Cyperus malaccensis","mesohaline","winter",18,3.65511573357565,3.58851966991101,3.7473762968828
 "3","Cyperus malaccensis","mesohaline","spring",NA,NA,NA,NA

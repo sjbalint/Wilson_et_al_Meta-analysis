@@ -17,17 +17,11 @@ library(ggforce) #for sina
 library(ggsci) #for color scales
 library(magick) #for combining images
 
+source("functions/utilities.r")
+
+
 # configure graphing ------------------------------------------------------
-
 #change default aesthetics for point - used for geom_sina
-update_geom_defaults("point", list(shape = 21,  size=1, stroke=0.3))
-
-#function for plotting
-asinh_trans <- trans_new(
-  name = "asinh",
-  transform = asinh,
-  inverse = sinh
-)
 
 #define the dot and bars
 median_IQR <- function(x) {
@@ -154,8 +148,8 @@ p5 <- ggplot(plot1.df, aes(x=plant_species, y=sinh(yi), color=plant_species, fil
                                "D. spicata" = "#47724c", "S. salsa" = "#c6b822",
                                "C. jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
                                "S. portulacastrum" = "#90E669", "P. maritima" = "#30BCAD",
-                               "S. mariqueter" = "#60563f", "T. chinensis"="#FF46A2",
-                               "Salicornia sp."="black", "Suaeda sp." = "black",
+                               "S. mariqueter" = "#60563f", "T. chinensis"="#8B5F65",
+                               "Salicornia sp."="#CD8162", "Suaeda sp." = "black",
                                "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
                                "S. angelica"="#D62728"))+
   scale_color_manual(values = c("C. malaccensis"="#025766", "S. patens" = "#5c3972", 
@@ -163,14 +157,14 @@ p5 <- ggplot(plot1.df, aes(x=plant_species, y=sinh(yi), color=plant_species, fil
                                 "D. spicata" = "#47724c", "S. salsa" = "#c6b822",
                                 "C. jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
                                 "S. portulacastrum" = "#90E669", "P. maritima" = "#30BCAD",
-                                "S. mariqueter" = "#60563f", "T. chinensis"="#FF46A2",
-                                "Salicornia sp."="black", "Suaeda sp." = "black",
+                                "S. mariqueter" = "#60563f", "T. chinensis"="#8B5F65",
+                                "Salicornia sp."="#CD8162", "Suaeda sp." = "black",
                                 "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
                                 "S. angelica"="#D62728"))+
   theme(
   axis.text.x = element_text(size = 7, colour = "black", face="italic", angle = 30, hjust = .90, family = "Arial"))+
   labs(x = "Plant Species")
-  
+
 p5
 
 # Salinity ----------------------------------------------------------------
@@ -218,8 +212,8 @@ p4 <- ggplot(plot2.df, aes(x=salinity, y=sinh(yi), color=plant_species, fill=pla
                                "D. spicata" = "#47724c", "S. salsa" = "#c6b822",
                                "C. jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
                                "S. portulacastrum" = "#90E669", "P. maritima" = "#30BCAD",
-                               "S. mariqueter" = "#60563f", "T. chinensis"="#FF46A2",
-                               "Salicornia sp."="black", "Suaeda sp." = "black",
+                               "S. mariqueter" = "#60563f", "T. chinensis"="#8B5F65",
+                               "Salicornia sp."="#CD8162", "Suaeda sp." = "black",
                                "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
                                "S. angelica"="#D62728"))+
   scale_color_manual(values = c("C. malaccensis"="#025766", "S. patens" = "#5c3972", 
@@ -227,8 +221,8 @@ p4 <- ggplot(plot2.df, aes(x=salinity, y=sinh(yi), color=plant_species, fill=pla
                                 "D. spicata" = "#47724c", "S. salsa" = "#c6b822",
                                 "C. jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
                                 "S. portulacastrum" = "#90E669", "P. maritima" = "#30BCAD",
-                                "S. mariqueter" = "#60563f", "T. chinensis"="#FF46A2",
-                                "Salicornia sp."="black", "Suaeda sp." = "black",
+                                "S. mariqueter" = "#60563f", "T. chinensis"="#8B5F65",
+                                "Salicornia sp."="#CD8162", "Suaeda sp." = "black",
                                 "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
                                 "S. angelica"="#D62728"))+
   labs(x = "Salinity")
@@ -286,8 +280,8 @@ p2 <- ggplot(plot3.df, aes(x=season, y=sinh(yi), color=plant_species, fill=plant
                                "D. spicata" = "#47724c", "S. salsa" = "#c6b822",
                                "C. jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
                                "S. portulacastrum" = "#90E669", "P. maritima" = "#30BCAD",
-                               "S. mariqueter" = "#60563f", "T. chinensis"="#FF46A2",
-                               "Salicornia sp."="black", "Suaeda sp." = "black",
+                               "S. mariqueter" = "#60563f", "T. chinensis"="#8B5F65",
+                               "Salicornia sp."= "#CD8162", "Suaeda sp." = "black",
                                "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
                                "S. angelica"="#D62728"))+
   scale_color_manual(values = c("C. malaccensis"="#025766", "S. patens" = "#5c3972", 
@@ -295,8 +289,8 @@ p2 <- ggplot(plot3.df, aes(x=season, y=sinh(yi), color=plant_species, fill=plant
                                 "D. spicata" = "#47724c", "S. salsa" = "#c6b822",
                                 "C. jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
                                 "S. portulacastrum" = "#90E669", "P. maritima" = "#30BCAD",
-                                "S. mariqueter" = "#60563f", "T. chinensis"="#FF46A2",
-                                "Salicornia sp."="black", "Suaeda sp." = "black",
+                                "S. mariqueter" = "#60563f", "T. chinensis"="#8B5F65",
+                                "Salicornia sp."="#CD8162", "Suaeda sp." = "black",
                                 "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
                                 "S. angelica"="#D62728"))+
   labs(x = "Season")
@@ -353,8 +347,8 @@ p3 <- ggplot(plot4.df, aes(x=tide, y=sinh(yi), color=plant_species, fill=plant_s
                                "D. spicata" = "#47724c", "S. salsa" = "#c6b822",
                                "C. jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
                                "S. portulacastrum" = "#90E669", "P. maritima" = "#30BCAD",
-                               "S. mariqueter" = "#60563f", "T. chinensis"="#FF46A2",
-                               "Salicornia sp."="black", "Suaeda sp." = "black",
+                               "S. mariqueter" = "#60563f", "T. chinensis"="#8B5F65",
+                               "Salicornia sp."="#CD8162", "Suaeda sp." = "black",
                                "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
                                "S. angelica"="#D62728"))+
   scale_color_manual(values = c("C. malaccensis"="#025766", "S. patens" = "#5c3972", 
@@ -362,8 +356,8 @@ p3 <- ggplot(plot4.df, aes(x=tide, y=sinh(yi), color=plant_species, fill=plant_s
                                 "D. spicata" = "#47724c", "S. salsa" = "#c6b822",
                                 "C. jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
                                 "S. portulacastrum" = "#90E669", "P. maritima" = "#30BCAD",
-                                "S. mariqueter" = "#60563f", "T. chinensis"="#FF46A2",
-                                "Salicornia sp."="black", "Suaeda sp." = "black",
+                                "S. mariqueter" = "#60563f", "T. chinensis"="#8B5F65",
+                                "Salicornia sp."="#CD8162", "Suaeda sp." = "black",
                                 "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
                                 "S. angelica"="#D62728"))+
   labs(x = "Tidal Range")
@@ -419,8 +413,8 @@ p1 <- ggplot(plot5.df, aes(x=climate_region, y=sinh(yi), color=plant_species, fi
                                "D. spicata" = "#47724c", "S. salsa" = "#c6b822",
                                "C. jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
                                "S. portulacastrum" = "#90E669", "P. maritima" = "#30BCAD",
-                               "S. mariqueter" = "#60563f", "T. chinensis"="#FF46A2",
-                               "Salicornia sp."="black", "Suaeda sp." = "black",
+                               "S. mariqueter" = "#60563f", "T. chinensis"= "#8B5F65",
+                               "Salicornia sp."="#CD8162", "Suaeda sp." = "black",
                                "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
                                "S. angelica"="#D62728"))+
   scale_color_manual(values = c("C. malaccensis"="#025766", "S. patens" = "#5c3972", 
@@ -428,8 +422,8 @@ p1 <- ggplot(plot5.df, aes(x=climate_region, y=sinh(yi), color=plant_species, fi
                                 "D. spicata" = "#47724c", "S. salsa" = "#c6b822",
                                 "C. jamaicense" =  "#564e95", "Juncus sp." = "#86a291", "Juncae sp" = "lightblue", 
                                 "S. portulacastrum" = "#90E669", "P. maritima" = "#30BCAD",
-                                "S. mariqueter" = "#60563f", "T. chinensis"="#FF46A2",
-                                "Salicornia sp."="black", "Suaeda sp." = "black",
+                                "S. mariqueter" = "#60563f", "T. chinensis"= "#8B5F65",
+                                "Salicornia sp."= "#CD8162", "Suaeda sp." = "black",
                                 "Carex. sp."="#EEAAEE", "S. americanus"="#FF9E4A" ,
                                 "S. angelica"="#D62728"))+
   labs(x = "Climate Region")

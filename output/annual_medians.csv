@@ -1,4 +1,4 @@
-"","plant_species","salinity","n","annual_median","annual_q1","annual_q3","offset_20","offset_100","perc_diff"
+"","plant_species","salinity","n","CH4_gm2yr_median","CH4_gm2yr_q1","CH4_gm2yr_q3","offset_20","offset_100","perc_diff"
 "1","Cyperus malaccensis","mesohaline",63,8.75,4.95,11.06,156.93,73.56,71.31
 "2","Cyperus malaccensis","oligohaline",1197,13.11,4.94,24.55,235.31,110.3,-26.93
 "3","Juncus sp.","mesohaline",90,2.61,1.59,3.99,46.9,21.98,-48.8
